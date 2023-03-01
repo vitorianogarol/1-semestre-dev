@@ -1,0 +1,25 @@
+/* reset css  */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* propriedade css body  */
+body {
+    background-color: #340B65;
+}
+
+header {
+    /* propriedade css do cabeçalho */
+    background-color: #F9003D;
+}
+
+header nav {
+    /* flexbox css links do cabeçalho */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
