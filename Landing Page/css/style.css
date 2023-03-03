@@ -5,6 +5,11 @@
     src: url(../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Courier";
+    src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
+}
+
 
 /* reset css  */
 
@@ -23,23 +28,11 @@
     margin: 0 auto;
     height: 100%;
     width: 100%;
-}
-
-main .banner {
-    height: 740px;
-    width: 100%;
-    color: white;
-    background-color: black;
-    background-image: url(../assets/images/imagem-fundo-banner.png);
-    background-repeat: no-repeat;
+    border: 2px;
 }
 
 
-/* propriedade css body  */
-
-body {
-    background-color: #340B65;
-}
+/* ***************HEADER ************** */
 
 
 /* propriedades css cabeçalho  */
@@ -58,11 +51,17 @@ header .header-flex {
     align-items: center;
 }
 
+
+/* formatação caixa nav  */
+
 header nav {
     display: flex;
     justify-content: space-evenly;
     width: 600px;
 }
+
+
+/* formatação link nav  */
 
 header nav a {
     padding: 15px 25px;
@@ -75,9 +74,105 @@ header nav a {
 }
 
 
-/* ao passar do maouse */
+/* ao passar do mouse */
 
 header nav a:hover {
     background-color: white;
     color: #F9003D;
+}
+
+
+/*****************MAIN*******************/
+
+
+/* !!!!!!!!! banner  */
+
+main .banner {
+    height: 740px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    background-image: url(../assets/images/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+/* caixa bannerinfo  */
+
+main .banner #bannerinfo {
+    width: 600px;
+    /* border: 2px solid yellow;  */
+}
+
+
+/* formatação texto h1 do bannerinfo  */
+
+main .banner #bannerinfo h1 {
+    font-family: Vitoria;
+    color: white;
+    width: 600px;
+    /* border: 2px solid white; */
+    font-size: 96px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #FFAF00;
+}
+
+
+/* formatação texto *p* do bannerinfo  */
+
+main .banner #bannerinfo p {
+    padding-top: 20px;
+    font-family: Courier;
+    color: #F9003D;
+    text-transform: uppercase;
+    /* border: 2px solid white; */
+    font-size: 53px;
+}
+
+
+/* formatação flexbox  */
+
+main .banner-flex {
+    display: flex;
+    align-items: center;
+}
+
+
+/* formatação do mouse  */
+
+main .banner #bannerinfo img {
+    margin-top: 20px;
+}
+
+
+/* !!!!!!!!!!projetos */
+
+.projetos {
+    margin-top: 80px;
+}
+
+.projetos #projetosinfo h2 {
+    color: #F9003D;
+    font-family: "Vitoria";
+    font-size: 64px;
+}
+
+
+/* *********BODY********* */
+
+
+/* propriedade css body  */
+
+body {
+    background-color: #340B65;
+}
+
+
+/*************FOOTER ******************/
+
+footer {
+    background-color: #F9003D;
+    color: white;
 }
