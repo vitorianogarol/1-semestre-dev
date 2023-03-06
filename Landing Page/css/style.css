@@ -10,6 +10,11 @@
     src: url(../assets/fonts/Courier_Prime/CourierPrime-Bold.ttf);
 }
 
+@font-face {
+    font-family: "open";
+    src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf)
+}
+
 
 /* reset css  */
 
@@ -147,26 +152,89 @@ main .banner #bannerinfo img {
 }
 
 
-/* !!!!!!!!!!projetos */
+/* !!!!!!!!!!PROJETOS */
 
-.projetos {
-    margin-top: 80px;
+.sobre {
+    padding: 60px 0;
 }
 
-.projetos #projetosinfo h2 {
+main .sobrebox {
+    margin-top: 60px;
     color: #F9003D;
-    font-family: "Vitoria";
+    font-family: Vitoria;
+}
+
+main .sobrebox h2 {
+    margin-bottom: 30px;
     font-size: 64px;
+    width: 384px;
 }
 
 
-/* *********BODY********* */
+
+.sobre .sobre-flex {
+    display: flex;
+  
+}
+
+main .participantes {
+    margin-top: 120px;
+}
+
+main .participantes p{
+    color: white;
+    font-family: open;
+    font-size: 18px;
+    width: 557px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.sobre .sobre-flex .participantes h4{
+    color: #FFAF00;
+    font-family: Vitoria;
+    font-size: 64px;
+    width: 557px;
+    margin-bottom: 20px;
+
+}
+
+.sobre .sobre-flex .participantes h3{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    width: 228px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.sobre .sobre-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre .sobre-flex .sobrebox {
+    width: 500px;
+}
+
+.sobre .sobre-flex .participantes {
+    width: 640px;
+}
+
+
+/* ********BODY********* */
 
 
 /* propriedade css body  */
 
 body {
-    background-color: #340B65;
+    background-color: #080324;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 16px;
+
 }
 
 
