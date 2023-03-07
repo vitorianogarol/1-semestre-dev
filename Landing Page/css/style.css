@@ -16,13 +16,21 @@
 }
 
 
-/* reset css  */
+/* desktop!!!!!!! */
 
+/* esconde  menu hamburguer*/
+
+header #menu-hamburguer {
+    display: none;
+}
+
+/* reset css  */
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
 
 
 /* formatação layout grid pai  */
@@ -224,6 +232,13 @@ main .participantes p{
 }
 
 
+/* ********LOCALIZACAO********* */
+
+.localizacao #dados {
+    background-image: url(../assets/images/imagem-fundo-endereco.png);
+    width: 200px
+}
+
 /* ********BODY********* */
 
 
@@ -244,3 +259,44 @@ footer {
     background-color: #F9003D;
     color: white;
 }
+
+/* smartphone  */
+
+@media screen and (max-width: 767px) {
+    main, footer {
+        display: none;
+    }
+
+    /* header nav {
+        display: none;
+    } */
+
+    header nav {
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 80vw;
+        max-width: 360px;
+        height: 100vh;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #F9003D;
+    }
+    
+    header nav a {
+        width: 150px;
+        margin-bottom: 30px;
+        border-left: 2px solid #FFAF00;
+        border-radius: 0;
+        font-size: 24px;
+    }
+
+    /* mostra o icone de barras  */
+     header #menu-hamburguer {
+        display: block;
+     }
+}
+
+
