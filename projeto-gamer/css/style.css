@@ -11,15 +11,63 @@
     box-sizing: border-box;
 }
 
+.layout-grid {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    border: 1px solid salmon;
+}
+
+/* justify content + align  */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* BODY  */
 
 body {
     color: white;
 }
 
+/* MOBILE FIRST!!!!!!!!!!  */
+
 /* HEADER */
 
 header {
+    height: 60px;
     background-color: #1B1426;
 }
 
+header .header-top {
+    display: none;
+}
+
+header nav {
+    display: none;
+}
+
+header .menu-usuarios {
+    display: none;
+}
+
+header .header-bottom {
+    height: 60px;
+    
+}
+
+header nav {
+    position: fixed;
+    top: 60px;
+    width: 80vw;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+}
+
+header .logo {
+    width: 86px;
+}
