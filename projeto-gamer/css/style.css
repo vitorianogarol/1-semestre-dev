@@ -1,7 +1,7 @@
 /* import da fonte  */
 @font-face {
-    font-family: " ";
-    src: url();
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 /* reset css  */
@@ -15,7 +15,7 @@
     margin: 0 auto;
     height: 100%;
     width: 90%;
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
 }
 
 /* justify content + align  */
@@ -57,17 +57,50 @@ header .header-bottom {
     
 }
 
-header nav {
+header .header-bottom nav {
     position: fixed;
     top: 60px;
     width: 80vw;
-    height: 100vh;
-    background-color: grey;
+    height: calc(100vh - 60px);
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(45px);
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
     left: 0;
+
 }
 
 header .logo {
     width: 86px;
+}  
+
+header .header-bottom nav > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding: 25px 0;
+    color: white;
+    font-size: 15px;
+    font-family: Inter;
+    text-decoration: none;
+    border-bottom: 2px solid #F9AA01;
+
 }
+
+header .header-bottom nav a:last-of-type {
+    border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+
+}
+
