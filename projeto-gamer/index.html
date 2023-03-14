@@ -41,16 +41,16 @@
             </div>
         </div>
 
-        <div class="header-bottom ">
+        <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- mobile -->
-                <img src="./assets/icons/hamburguer pg.svg"
-                    alt="Icone de Telefone. Abre e fecha o menu principal, no celular">
+                <img onclick="mostrarMenu()" src="./assets/icons/hamburguer pg.svg"
+                    alt="Icone de hamburguer. Abre e fecha o menu principal, no celular">
 
                 <img class="logo" src="./assets/images/logotipo-gamer (1) 1.svg"
                     alt="imagem logotipo gamer com um controle de video game ao centro">
 
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <a href="">Inicio</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -85,9 +85,9 @@
 
 
                 <!-- menu 3 pontinhos -->
-                <img src="./assets/icons/pointers.svg" alt="icone d3 pontinhos, abre e fecha o menu de usuarios">
+                <img onclick="mostrarBarra()"src="./assets/icons/pointers.svg" alt="icone de pontinhos, abre e fecha o menu de usuarios">
 
-                <div class="menu-usuarios">
+                <div class="menu-usuarios" id="menu-usuarios">
                     <a href="">
                         <img src="./assets/icons/icon cadastro.svg" alt="icone de perfil">
                     </a>
@@ -106,9 +106,20 @@
 
     <main>
         <div class="banner">
-            <img src="./assets/images/valorant-pergunte-3-scaled 1 1.svg" alt="">
+            <img src="./assets/images/banner mobile.jpg" alt="">
         </div>
     </main>
+
+    <script>
+        // pega a nav bar pelo id 
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+ 
+        function mostrarBarra() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-barra");
+        }
+    </script>
 </body>
 
 </html>
