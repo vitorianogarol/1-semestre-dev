@@ -85,7 +85,8 @@
 
 
                 <!-- menu 3 pontinhos -->
-                <img onclick="mostrarBarra()"src="./assets/icons/pointers.svg" alt="icone de pontinhos, abre e fecha o menu de usuarios">
+                <img onclick="mostrarBarra()" src="./assets/icons/pointers.svg"
+                    alt="icone de pontinhos, abre e fecha o menu de usuarios">
 
                 <div class="menu-usuarios" id="menu-usuarios">
                     <a href="">
@@ -105,9 +106,28 @@
     </header>
 
     <main>
-        <div class="banner">
-            <img src="./assets/images/banner mobile.jpg" alt="">
-        </div>
+        <section class="bannerprincipal">
+
+
+                <h1>Liga Gamers</h1>
+                <a href="">Sobre</a>
+
+
+        </section>
+
+        <section class="jogosprincipais">
+            <div class="maispopular">
+                <img src="./assets/images/fifa.png" alt="">
+            
+                <img src=".//assets/images/cs.png" alt="">
+            </div>
+        </section>
+
+        <section class="time">
+            <h1>entre para o time pro gamer</h1>
+            <hr class="linhapro">
+
+        </section>
     </main>
 
     <script>
@@ -115,7 +135,7 @@
         function mostrarMenu() {
             document.getElementById("menu").classList.toggle("mostrar-menu");
         }
- 
+
         function mostrarBarra() {
             document.getElementById("menu-usuarios").classList.toggle("mostrar-barra");
         }
