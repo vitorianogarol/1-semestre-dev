@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="header-top">
-            <div class="layout-grid">
+            <div class="layout-grid alinhamento-between-center">
                 <div class="contatos">
                     <div class="phone">
                         <img src="./assets/icons/icone_telefone.svg" alt="icone de telefone de contato">
@@ -44,7 +44,7 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- mobile -->
-                <img onclick="mostrarMenu()" src="./assets/icons/hamburguer pg.svg"
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/hamburguer pg.svg"
                     alt="Icone de hamburguer. Abre e fecha o menu principal, no celular">
 
                 <img class="logo" src="./assets/images/logotipo-gamer (1) 1.svg"
@@ -85,7 +85,7 @@
 
 
                 <!-- menu 3 pontinhos -->
-                <img onclick="mostrarBarra()" src="./assets/icons/pointers.svg"
+                <img class="menu-pontinhos" onclick="mostrarBarra()" src="./assets/icons/pointers.svg"
                     alt="icone de pontinhos, abre e fecha o menu de usuarios">
 
                 <div class="menu-usuarios" id="menu-usuarios">
@@ -109,8 +109,8 @@
         <section class="bannerprincipal">
 
 
-                <h1>Liga Gamers</h1>
-                <a href="">Sobre</a>
+            <h1>Liga Gamers</h1>
+            <a href="">Sobre</a>
 
 
         </section>
@@ -118,14 +118,25 @@
         <section class="jogosprincipais">
             <div class="maispopular">
                 <img src="./assets/images/fifa.png" alt="">
-            
+
                 <img src=".//assets/images/cs.png" alt="">
             </div>
         </section>
 
         <section class="time">
-            <h1>entre para o time pro gamer</h1>
-            <hr class="linhapro">
+            <div class="titulotime flex-titulotime">
+                <h1>entre para o time pro gamer</h1>
+                <hr id="linhapro">
+            </div>
+
+            <div class="valorant">
+                <img src="./assets/images/kiljoy 1.svg" alt="">
+            </div>
+
+            <div class="jinx">
+                <img src="./assets/images/jinx.svg.svg" alt="">
+
+            </div>
 
         </section>
     </main>
