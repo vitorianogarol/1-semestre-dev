@@ -1,0 +1,376 @@
+/* import da fonte  */
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: Titiblack;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: Titibold;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
+}
+
+/* reset css  */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.layout-grid {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+
+    /* border: 1px solid salmon; */
+}
+
+.mostrar-menu {
+    left: 0 !important;
+}
+
+.mostrar-barra {
+    right: 0 !important;
+}
+
+
+/* justify content + align  */
+.alinhamento-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BODY  */
+
+body {
+    color: white;
+}
+
+/* MOBILE FIRST!!!!!!!!!!  */
+
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    z-index: 100;
+    background-color: #1B1426;
+    top: 0px;
+    left: 0px;
+}
+
+header .header-top {
+    display: none;
+}
+
+header nav {
+    display: none;
+}
+
+header .menu-usuarios {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    height: 170;
+    width: 66px;
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    right: -80vw;
+    transition: right 0.5s;
+    z-index: 102;
+}
+
+header .header-bottom {
+    height: 60px;
+
+}
+
+header .header-bottom nav {
+    position: fixed;
+    top: 60px;
+    width: 80vw;
+    z-index: 101;
+    height: calc(100vh - 60px);
+    background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    left: -80vw;
+    transition: left 0.5s;
+
+}
+
+header .logo {
+    width: 86px;
+}
+
+header .header-bottom nav>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    padding: 25px 0;
+    color: white;
+    font-size: 15px;
+    font-family: Inter;
+    text-decoration: none;
+    border-bottom: 2px solid #F9AA01;
+
+}
+
+header .header-bottom nav a:last-of-type {
+    border-bottom: none;
+}
+
+header .header-bottom nav .midias-sociais {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+
+}
+
+.bannerprincipal {
+    margin-top: 60px;
+    background-image: url(../assets/images/banner\ mobile.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 606px;
+    text-align: 100%;
+    /* border: solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 70px;
+    background-size: cover;
+
+}
+
+
+main .bannerprincipal h1 {
+    font-size: 40px;
+    text-shadow: 0px 0px 7px #FD4255;
+    font-family: Titiblack;
+    width: 222px;
+    height: 61px;
+}
+
+main .bannerprincipal a {
+    font-size: 24px;
+    text-decoration: none;
+    width: 203px;
+    height: 40px;
+    color: black;
+    background-color: #F9AA01;
+    font-family: Titibold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.jogosprincipais {
+    background-color: #1B1426;
+    width: 100%;
+    height: 590px;
+    background-size: cover;
+}
+
+.maispopular {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.time {
+    background-color: #F9AA01;
+    width: 100%;
+    background-size: cover;
+    height: 1535px ;
+}
+
+main .time h1 {
+    font-size: 18px;
+    color: #1B1426;
+    text-transform: uppercase;
+    font-family: Titiblack;  
+    letter-spacing: 2px;
+}
+
+.titulotime #linhapro {
+    border: #1B1426 2px solid;
+    width: 204px;
+}
+
+.flex-titulotime {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.valorant img {
+    width: 335px;
+    height: 511px;
+}
+
+.jinx img {
+    width: 335px;
+    height: 511px;
+}
+
+article .caixakiljoy h1 {
+    font-size: 18px;
+    font-family: Titiblack;
+    color: white;
+}
+
+/* DESKTOP  */
+/* Tablets >= 768px */
+@media screen and (min-width: 768px) {}
+
+/* Desktop >= 1200px*/
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    header {
+        height: 140px;
+        position: static;
+    }
+
+    .bannerprincipal  {
+        margin-top: 0;
+  
+    }
+
+    header .header-top {
+        display: block;
+        height: 50px;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .contatos {
+        width: 450px;
+        /* border: 2px solid salmon; */
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Inter;
+        font-weight: 400px;
+
+        
+    }
+    header .header-top .midias-sociais {
+        width: 120px;
+        display: flex;
+        justify-content: space-around;
+        text-decoration: none;
+        /* border: 2px solid salmon; */
+    }
+
+      /* divs phone e mail  */
+    header .header-top .contatos > div {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 200px;
+    } 
+
+    /* esconde os elementos desnecessários */
+    header .header-bottom .menu-hamburger,
+    header .header-bottom .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .mail,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+    header .logo {
+        width: 200px;
+    }
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        flex-direction: row;
+        align-items: center;
+        /* background-color: red; */
+        justify-content: space-between;
+        padding-bottom: 0;
+
+    }
+
+
+    header .header-bottom nav > a {
+        padding: 0;
+        border: none;
+        font: 14px;
+
+    }
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        width: 110px;
+        flex-direction: row;
+        height: auto;
+        background-color: transparent;
+        background-image: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    header .header-bottom {
+        height: 90px;
+    }
+
+    .bannerprincipal {
+       height: 722px;
+        background-image: url(../assets/images/principal\ banner.png);
+}
+
+    .maispopular {
+        height: 500px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 95px;
+
+    }
+    
+    .jogosprincipais img {
+        width: 556px;
+        height: 313px;
+
+    }
+
+    main .bannerprincipal h1 {
+        font-size: 80px;
+        width: 444px;
+    }
+
+    
+}

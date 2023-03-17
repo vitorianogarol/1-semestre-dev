@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Gamer meu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="layout-grid alinhamento-between-center">
+                <div class="contatos">
+                    <div class="phone">
+                        <img src="./assets/icons/icone_telefone.svg" alt="icone de telefone de contato">
+                        <p>(11) 0900-1010</p>
+                    </div>
+                    <div class="mail">
+                        <img src="./assets/icons/icone_email.svg" alt="icone de email de contato">
+                        <p>contato@gamer.com.br</p>
+                    </div>
+                </div>
+
+
+                <div class="midias-sociais">
+                    <a href="https://pt-br.facebook.com/">
+                        <img src="./assets/icons/facebook.svg" alt="imagem link do Facebook da empresa">
+                    </a>
+
+                    <a href="https://br.linkedin.com/">
+                        <img src="./assets/icons/linkedin.svg" alt="imagem link do Linkedin da empresa">
+                    </a>
+
+                    <a href="https://www.instagram.com/">
+                        <img src="./assets/icons/instagram.svg" alt="imagem link do Instagram da empresa">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="layout-grid alinhamento-between-center">
+                <!-- mobile -->
+                <img class="menu-hamburger" onclick="mostrarMenu()" src="./assets/icons/hamburguer pg.svg"
+                    alt="Icone de hamburguer. Abre e fecha o menu principal, no celular">
+
+                <img class="logo" src="./assets/images/logotipo-gamer (1) 1.svg"
+                    alt="imagem logotipo gamer com um controle de video game ao centro">
+
+                <nav class="menu" id="menu">
+                    <a href="">Inicio</a>
+                    <a href="">Jogadores</a>
+                    <a href="">Equipes</a>
+                    <a href="">Noticias</a>
+
+                    <!-- visivel apenas no mobile  -->
+                    <a class="phone">
+                        <img src="./assets/icons/icone_telefone.svg" alt="icone de telefone de contato">
+                        <p>(11) 0900-1010</p>
+                    </a>
+                    <a class="mail">
+                        <img src="./assets/icons/icone_email.svg" alt="icone de email de contato">
+                        <p>contato@gamer.com.br</p>
+                    </a>
+
+                    <div class="midias-sociais">
+                        <a href="https://pt-br.facebook.com/">
+                            <img src="./assets/icons/facebook.svg" alt="imagem link do Facebook da empresa">
+                        </a>
+
+                        <a href="https://br.linkedin.com/">
+                            <img src="./assets/icons/linkedin.svg" alt="imagem link do Linkedin da empresa">
+                        </a>
+
+                        <a href="https://www.instagram.com/">
+                            <img src="./assets/icons/instagram.svg" alt="imagem link do Instagram da empresa">
+                        </a>
+                    </div>
+
+                </nav>
+
+
+
+                <!-- menu 3 pontinhos -->
+                <img class="menu-pontinhos" onclick="mostrarBarra()" src="./assets/icons/pointers.svg"
+                    alt="icone de pontinhos, abre e fecha o menu de usuarios">
+
+                <div class="menu-usuarios" id="menu-usuarios">
+                    <a href="">
+                        <img src="./assets/icons/icon cadastro.svg" alt="icone de perfil">
+                    </a>
+                    <a href="">
+                        <img src="./assets/icons/icon compra.svg" alt="icone de sacola">
+                    </a>
+
+                    <a href="">
+                        <img src="./assets/icons/icon busca.svg" alt="icone lupa de pesquisas">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="bannerprincipal">
+
+
+            <h1>Liga Gamers</h1>
+            <a href="">Sobre</a>
+
+
+        </section>
+
+        <section class="jogosprincipais">
+            <div class="maispopular">
+                <img src="./assets/images/fifa.png" alt="">
+
+                <img src=".//assets/images/cs.png" alt="">
+            </div>
+        </section>
+
+        <section class="time">
+            <div class="layout-grid time-flex">
+                <div class="titulotime flex-titulotime">
+                    <h1>entre para o time pro gamer</h1>
+                    <hr id="linhapro">
+                </div>
+
+                <div class="caixas">
+                    <div class="valorant">
+                        <img src="./assets/images/kiljoy 1.svg" alt="">
+
+                        <article class="caixakiljoy">
+                            <img src="./assets/images/controle2.svg" alt="">
+                            <h1>20 jogos diferentes</h1>
+                            <p>São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender melhores
+                                técnicas.</p>
+                        </article>
+                    </div>
+
+                    <div class="jinx">
+                        <img src="./assets/images/jinx.svg.svg" alt="">
+                        <article class="caixajinx">
+                        </article>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script>
+        // pega a nav bar pelo id 
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+
+        function mostrarBarra() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-barra");
+        }
+    </script>
+</body>
+
+</html>
