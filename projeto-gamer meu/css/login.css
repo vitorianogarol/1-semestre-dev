@@ -145,75 +145,75 @@ header .header-bottom nav .midias-sociais {
 
 }
 
-/* main  */
-.bannerprincipal {
+/* MAIN  */
+
+
+main {
+    height: 687px;
     margin-top: 60px;
-    background-image: url(../assets/images/banner\ mobile.jpg);
+    background-image: url(../assets/images/Banner_Login.png);
+    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 606px;
-    text-align: 100%;
-    /* border: solid white; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 70px;
-    background-size: cover;
-
+    backdrop-filter: blur(40px);
 }
 
+form {
+    width: 335px;
+    height: 462px;
+    border: white 2px solid;
+    
+}
 
-main .bannerprincipal h1 {
-    font-size: 40px;
-    text-shadow: 0px 0px 7px #FD4255;
+.titulologin {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulologin h1 {
+    text-transform: uppercase;
+    font-size: 28px;
     font-family: Titiblack;
-    width: 222px;
-    height: 61px;
 }
 
-main .bannerprincipal a {
-    font-size: 24px;
-    text-decoration: none;
-    width: 203px;
-    height: 40px;
-    color: black;
-    background-color: #F9AA01;
-    font-family: Titibold;
+.titulologin hr {
+    width: 90PX;
+    border: #F9AA01 2px solid;
+    
+}
+
+main .email input {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-}
-
-.jogosprincipais {
-    background-color: #1B1426;
+            justify-content: space-between;
+            align-items: center;
     width: 100%;
-    height: 590px;
-    background-size: cover;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
 }
 
-.maispopular {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
-}
-
-main .progamer {
+main .senha input {
     width: 100%;
-    height: 1535px;
-    background-color: #F9AA01;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+main .email input::placeholder {
+    color: white;
+}
 
-main .progamer-titulo hr {
-    border: #1B1426 2px solid;
-    width: 204px;
-    border-radius: 1px;
-    display: flex;
-    align-items: center;
+main .senha input::placeholder {
+    color: white;
 }
 
 
@@ -233,9 +233,9 @@ main .progamer-titulo hr {
         position: static;
     }
 
-    .bannerprincipal  {
+    .bannerprincipal {
         margin-top: 0;
-  
+
     }
 
     header .header-top {
@@ -254,8 +254,9 @@ main .progamer-titulo hr {
         font-family: Inter;
         font-weight: 400px;
 
-        
+
     }
+
     header .header-top .midias-sociais {
         width: 120px;
         display: flex;
@@ -264,13 +265,13 @@ main .progamer-titulo hr {
         /* border: 2px solid salmon; */
     }
 
-      /* divs phone e mail  */
-    header .header-top .contatos > div {
+    /* divs phone e mail  */
+    header .header-top .contatos>div {
         display: flex;
         align-items: center;
         gap: 10px;
         width: 200px;
-    } 
+    }
 
     /* esconde os elementos desnecessários */
     header .header-bottom .menu-hamburger,
@@ -298,7 +299,7 @@ main .progamer-titulo hr {
     }
 
 
-    header .header-bottom nav > a {
+    header .header-bottom nav>a {
         padding: 0;
         border: none;
         font: 14px;
@@ -321,9 +322,9 @@ main .progamer-titulo hr {
     }
 
     .bannerprincipal {
-       height: 722px;
+        height: 722px;
         background-image: url(../assets/images/principal\ banner.png);
-}
+    }
 
     .maispopular {
         height: 500px;
@@ -333,7 +334,7 @@ main .progamer-titulo hr {
         gap: 95px;
 
     }
-    
+
     .jogosprincipais img {
         width: 556px;
         height: 313px;
@@ -345,5 +346,5 @@ main .progamer-titulo hr {
         width: 444px;
     }
 
-    
+
 }
