@@ -14,6 +14,13 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Bold.ttf);
 }
 
+@font-face {
+    font-family: Quickregular;
+    src: url(../assets/fonts/quickregular/Quicksand-VariableFont_wght.ttf);
+}
+
+/* ************************ */
+
 /* reset css  */
 * {
     margin: 0%;
@@ -21,6 +28,9 @@
     box-sizing: border-box;
 }
 
+/* ************************ */
+
+/* layout grid ******************** */
 .layout-grid {
     margin: 0 auto;
     height: 100%;
@@ -29,6 +39,9 @@
     /* border: 1px solid salmon; */
 }
 
+/* ***************************** */
+
+/* javascrip********************* */
 .mostrar-menu {
     left: 0 !important;
 }
@@ -37,6 +50,7 @@
     right: 0 !important;
 }
 
+/* *********************************** */
 
 /* justify content + align  */
 .alinhamento-between-center {
@@ -53,7 +67,7 @@ body {
 
 /* MOBILE FIRST!!!!!!!!!!  */
 
-/* HEADER */
+/* HEADER ****************************** */
 
 header {
     position: fixed;
@@ -145,7 +159,9 @@ header .header-bottom nav .midias-sociais {
 
 }
 
-/* main  */
+/* ***************************************** */
+
+/* MAIN *******************************  */
 .bannerprincipal {
     margin-top: 60px;
     background-image: url(../assets/images/banner\ mobile.jpg);
@@ -216,6 +232,136 @@ main .progamer-titulo hr {
     align-items: center;
 }
 
+/* ****************************************************** */
+
+/* FOOTER ******************************** */
+
+footer {
+    padding-top: 130px;
+    background-image: url(../assets/images/footer\ mobile.png);
+    width: 100%;
+    height: 1529px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0 60px 25px black;
+}
+
+footer .fraselogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+footer .fraselogo p {
+    font-size: 14px;
+    font-family: Quickregular;
+}
+
+footer .redesfooter {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+footer .linksuteis {
+    margin-top: 70px;
+    font-size: 15px;
+    font-family: Titiblack;
+}
+
+footer .linksuteis hr {
+    border: #F9AA01 2px solid;
+    width: 112px;
+    
+}
+
+footer .contatos {
+    margin-top: 50px;
+}
+footer .contatos p {
+    font-size: 16px;
+    font-family: Titibold;
+} 
+
+footer .contatos h1 {
+    font-family: Titibold;
+    font-size: 16px;
+    color: #F9AA01;
+}
+
+footer .contatos h2 {
+    font-size: 30px;
+    font-family: Titiblack;
+}
+
+footer .contatos hr {
+    border: #F9AA01 2px solid;
+    width: 112px;
+}
+
+footer .link {
+    
+    display: flex;
+    gap: 10px;  
+    flex-wrap: wrap;
+}
+
+footer .link a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Titibold;
+    color: white;
+}
+
+footer .link hr {
+    margin-top: 30px;
+    border: #F9AA01 2px solid;
+    width: 14px;
+}
+
+footer .inicio {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .jogadores {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .noticias {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .login {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .equipes {
+    display: flex;
+    align-items: baseline;   
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .titulolinks {
+    margin-bottom: 30px;
+}
+
+/* ************************************* */
+
 
 /* DESKTOP  */
 /* Tablets >= 768px */
@@ -233,9 +379,9 @@ main .progamer-titulo hr {
         position: static;
     }
 
-    .bannerprincipal  {
+    .bannerprincipal {
         margin-top: 0;
-  
+
     }
 
     header .header-top {
@@ -254,8 +400,9 @@ main .progamer-titulo hr {
         font-family: Inter;
         font-weight: 400px;
 
-        
+
     }
+
     header .header-top .midias-sociais {
         width: 120px;
         display: flex;
@@ -264,13 +411,13 @@ main .progamer-titulo hr {
         /* border: 2px solid salmon; */
     }
 
-      /* divs phone e mail  */
-    header .header-top .contatos > div {
+    /* divs phone e mail  */
+    header .header-top .contatos>div {
         display: flex;
         align-items: center;
         gap: 10px;
         width: 200px;
-    } 
+    }
 
     /* esconde os elementos desnecessários */
     header .header-bottom .menu-hamburger,
@@ -298,7 +445,7 @@ main .progamer-titulo hr {
     }
 
 
-    header .header-bottom nav > a {
+    header .header-bottom nav>a {
         padding: 0;
         border: none;
         font: 14px;
@@ -321,9 +468,9 @@ main .progamer-titulo hr {
     }
 
     .bannerprincipal {
-       height: 722px;
+        height: 722px;
         background-image: url(../assets/images/principal\ banner.png);
-}
+    }
 
     .maispopular {
         height: 500px;
@@ -333,7 +480,7 @@ main .progamer-titulo hr {
         gap: 95px;
 
     }
-    
+
     .jogosprincipais img {
         width: 556px;
         height: 313px;
@@ -345,5 +492,5 @@ main .progamer-titulo hr {
         width: 444px;
     }
 
-    
+
 }
