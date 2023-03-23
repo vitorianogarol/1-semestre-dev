@@ -24,9 +24,6 @@
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
 }
 
-
-/* ************************ */
-
 /* reset css  */
 * {
     margin: 0%;
@@ -34,9 +31,6 @@
     box-sizing: border-box;
 }
 
-/* ************************ */
-
-/* layout grid ******************** */
 .layout-grid {
     margin: 0 auto;
     height: 100%;
@@ -45,9 +39,6 @@
     /* border: 1px solid salmon; */
 }
 
-/* ***************************** */
-
-/* javascrip********************* */
 .mostrar-menu {
     left: 0 !important;
 }
@@ -56,7 +47,6 @@
     right: 0 !important;
 }
 
-/* *********************************** */
 
 /* justify content + align  */
 .alinhamento-between-center {
@@ -73,7 +63,7 @@ body {
 
 /* MOBILE FIRST!!!!!!!!!!  */
 
-/* HEADER ****************************** */
+/* HEADER */
 
 header {
     position: fixed;
@@ -165,39 +155,157 @@ header .header-bottom nav .midias-sociais {
 
 }
 
-/* ***************************************** */
+/* MAIN  */
 
-/* MAIN *******************************  */
-.bannerprincipal {
-    margin-top: 60px;
-    background-image: url(../assets/images/banner\ mobile.jpg);
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1231px;
+    background-image: url(../assets/images/background\ equipes\ mobile.png);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 606px;
-    text-align: 100%;
-    /* border: solid white; */
+    backdrop-filter: blur(40px);
+}
+
+form {
+    margin-top: 30px;
+
+}
+
+main .caixa {
+    
+    /* margin-left: 20px; */
+    /* display: flex; */
+    flex-direction: column;
+    border: 1px solid transparent;
+     background: 
+     /* fundo */
+     linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+     /* fundo borda */
+     linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+            
+    border-radius: 8px;
+    width: 335px;
+    height: 492px;
+    /* background-image: linear-gradient(to right, rgba(27, 20, 38, 0.6), rgba(58, 3, 63, 0.3)); */
+    backdrop-filter: blur(4px);
+    margin-bottom: 576px;
+}
+
+main .flexinput {
+    gap: 40px; 
+}
+
+main .titulo-cadastro-equipes {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-cadastro-equipes h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: Titiblack;
+}
+
+.titulo-cadastro-equipes hr {
+    width: 250px;
+    border: #F9AA01 2px solid;
+}
+
+main .id {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    padding-bottom: 70px;
-    background-size: cover;
+    margin-top: 12px;
+    margin-left: 30px;
+    gap: 10px;
+    /* background-color: transparent; */
+    border: 1px solid transparent;
+    background: 
+       /* fundo */
+       linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+       /* fundo borda */
+       linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    width: 273px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
 
+main .imagemequipe {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+   
 }
 
 
-main .bannerprincipal h1 {
-    font-size: 40px;
-    text-shadow: 0px 0px 7px #FD4255;
-    font-family: Titiblack;
-    width: 222px;
-    height: 61px;
+
+main .id input {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Titiregular;
+
 }
 
-main .bannerprincipal a {
+main .nome {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    gap: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    background: 
+       /* fundo */
+       linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+       /* fundo borda */
+       linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    /* background-image: linear-gradient(to right, rgba(255, 255, 255, .6), rgba(255, 255, 255, 0.2)); */
+    width: 273px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+main .nome input {
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Titiregular;
+    
+}
+
+main .id input::placeholder {
+    color: white;
+}
+
+main .nome input::placeholder {
+    color: white;
+}
+
+
+main a {
     font-size: 24px;
     text-decoration: none;
-    width: 203px;
+    width: 268px;
     height: 40px;
     color: black;
     background-color: #F9AA01;
@@ -206,255 +314,9 @@ main .bannerprincipal a {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-}
-
-.jogosprincipais {
-    background-color: #1B1426;
-    width: 100%;
-    height: 590px;
-    background-size: cover;
-}
-
-.maispopular {
-    padding-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 100px;
-}
-
-main .progamer {
-    width: 100%;
-    height: 1535px;
-    background-color: #F9AA01;
-}
-
-main .progamer-titulo h1 {
-    padding-bottom: 30px;
-    text-transform: uppercase;
-    font-family: Titiblack;
-    color: #1B1426;
-    font-size: 18px;
-    letter-spacing: 3px;
-}
-
-main .progamer-titulo hr {
-    border: #1B1426 1px solid;
-    width: 204px;
-    border-radius: 1px;
-
-}
-
-main .progamer-titulo {
     margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 50px;
+    margin-left: 31px;
 }
-
-main section .progamer-flex {
-    padding-top: 50px;
-}
-
-main .jogos-diferentes img{ 
-    position: absolute;
-    width: 313px;
-    height: 511px;
-}
-
-
-
-/* main .progamer article .jogos-diferentes {
-    position: absolute;
-    bottom: 40px;
-    right: 0px;
-} */
-
-main .progamer article {
-    position: relative;  }
-
-main .jogos-diferentes {
-    padding-top: 90px;
-}
-
-main .valorant img {
-    margin-bottom: 145px;
-    width: 97px;
-    height: 97px;
-}
-
-main .jinx img {
-    /* margin-top: 40px; */
-    /* margin-bottom: 145px; */
-    width: 97px;
-    height: 97px;
-}
-
-main .professores #imagemjinx {
-    margin-top: 650px;
-    width: 332px;
-    height: 428px;
-}
-
-main .jogos-diferentes #imagelkilljoy {
-    width: 335px;
-    height: 511px;
-}
-
-main .valorant h2 {
-    text-shadow: 0px 0px 7px #C6A5E5;
-    margin-top: 80px;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: Titiblack;
-}
-
-main .jinx h2 {
-    text-shadow: 0px 0px 7px #C6A5E5;
-    /* margin-top: 60px; */
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: Titiblack;
-}
-
-main .valorant p {
-     /* padding-top: 70px;  */
-    font-size: 13px;
-    font-family: Quickregular;
-    text-align: justify;
-    width: 176px;
-    height: 40px;
-}
-
-main .jinx p {
-    /* padding-top: 70px;  */
-   font-size: 13px;
-   font-family: Quickregular;
-   text-align: justify;
-   width: 161px;
-   height: 112px;
-}
-
-main .valorant {
-    gap: 20px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    left: 110px;
-    top: 209px;
-    border: 1px solid transparent;
-     background: 
-     /* fundo */
-     linear-gradient(to top, rgba(47, 7, 109, .9), rgba(47, 7, 109, .20)) padding-box,
-     /* fundo borda */
-     linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
-            
-    border-radius: 8px;
-    width: 231px;
-    height: 300px;
-  
-    backdrop-filter: blur(4px);
-}
-
-main .jinx {
-    /* gap: 10px; */
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    top: 767px;
-    /* padding-bottom: 60px; */
-    margin-bottom: 600px;
-    /* margin-left: 15px; */
-    /* margin-top: 20px; */
-    border: 1px solid transparent;
-     background: 
-     /* fundo */
-     linear-gradient(to top, rgba(47, 7, 109, .9), rgba(47, 7, 109, .20)) padding-box,
-     /* fundo borda */
-     linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
-            
-    border-radius: 8px;
-    width: 231px;
-    height: 300px;
-  
-    backdrop-filter: blur(4px);
-}
-
-main .noticiasgerais {
-    /* width: 100%; */
-    height: 3675px;
-    background-image: url(../assets/images/background\ noticias\ mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: blur(20px) ;
-}
-
-main .titulonoticias {
-    padding-top: 55px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-main .titulonoticias h1 {
-    display: flex;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: Titiblack;
-}
-
-main .titulonoticias hr {
-    border: #F9AA01 1px solid;
-    width: 240px;
-    margin-top: 40px;
-}
-
-.noticiasgerais article {
-    margin-top: 52px;
-    display: flex;
-    flex-direction: column;
-    width: 335px;
-    height: 387px;
-    /* border: white 2px solid; */
-    background-image: linear-gradient(to right bottom, rgba(37, 26, 52, .80), rgba(5, 1, 12, 0.7) );;
-    border-radius: 8px;
-}
-
-.noticiasgerais article h2 {
-    font-size: 24px;
-    font-family: Titibold;
-
-}
-
-.noticiasgerais article p {
-    padding-top: 10px;
-    font-size: 16px;
-    font-family: Quickregular;
-    text-align: justify;
-    width: 283px;
-    height: 81px;
-}
-
-main .flexescrito {
-    padding-top: 20px;
-    display: flex;
-    margin-left: 30px ;
-    flex-direction: column;
-}
-
-
-
-/* *****************************
-************************* */
 
 /* FOOTER ******************************** */
 
@@ -680,7 +542,6 @@ footer .footfinal p {
    font-family: Titiregular;
 }
 /* ************************************* */
-
 
 /* DESKTOP  */
 /* Tablets >= 768px */
