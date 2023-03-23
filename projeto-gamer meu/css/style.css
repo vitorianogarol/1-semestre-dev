@@ -19,6 +19,12 @@
     src: url(../assets/fonts/quickregular/Quicksand-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: Titiregular;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
+}
+
+
 /* ************************ */
 
 /* reset css  */
@@ -223,21 +229,153 @@ main .progamer {
     background-color: #F9AA01;
 }
 
-
-main .progamer-titulo hr {
-    border: #1B1426 2px solid;
-    width: 204px;
-    border-radius: 1px;
-    display: flex;
-    align-items: center;
+main .progamer-titulo h1 {
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: Titiblack;
+    color: #1B1426;
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 
+main .progamer-titulo hr {
+    border: #1B1426 1px solid;
+    width: 204px;
+    border-radius: 1px;
+
+}
+
+main .progamer-titulo {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section .progamer-flex {
+    padding-top: 50px;
+}
+
+main .jogos-diferentes img{ 
+    position: absolute;
+    width: 313px;
+    height: 511px;
+}
+
+
+
+/* main .progamer article .jogos-diferentes {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+} */
+
+/* main .progamer article {
+    position: relative;
+} */
+
+main .jogos-diferentes {
+    padding-top: 90px;
+}
+
+main .valorant img {
+    margin-bottom: 145px;
+    width: 97px;
+    height: 97px;
+}
+
+main .jinx img {
+    margin-bottom: 165px;
+    width: 97px;
+    height: 97px;
+}
+
+main .valorant h2 {
+    text-shadow: 0px 0px 7px #C6A5E5;
+    margin-top: 80px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Titiblack;
+}
+
+main .jinx h2 {
+    text-shadow: 0px 0px 7px #C6A5E5;
+    margin-top: 80px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Titiblack;
+}
+
+main .valorant p {
+     /* padding-top: 70px;  */
+    font-size: 13px;
+    font-family: Quickregular;
+    text-align: justify;
+    width: 176px;
+    height: 40px;
+}
+
+main .jinx p {
+    /* padding-top: 70px;  */
+   font-size: 13px;
+   font-family: Quickregular;
+   text-align: justify;
+   width: 161px;
+   height: 112px;
+}
+
+main .valorant {
+    gap: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+    margin-top: 140px;
+    border: 1px solid transparent;
+     background: 
+     /* fundo */
+     linear-gradient(to top, rgba(47, 7, 109, .9), rgba(47, 7, 109, .20)) padding-box,
+     /* fundo borda */
+     linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+            
+    border-radius: 8px;
+    width: 231px;
+    height: 300px;
+  
+    backdrop-filter: blur(4px);
+}
+
+main .jinx {
+    gap: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 110px;
+    margin-top: 140px;
+    border: 1px solid transparent;
+     background: 
+     /* fundo */
+     linear-gradient(to top, rgba(47, 7, 109, .9), rgba(47, 7, 109, .20)) padding-box,
+     /* fundo borda */
+     linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+            
+    border-radius: 8px;
+    width: 231px;
+    height: 300px;
+  
+    backdrop-filter: blur(4px);
+}
 /* ****************************************************** */
 
 /* FOOTER ******************************** */
 
 footer {
-    padding-top: 130px;
+    padding-top: 110px;
     background-image: url(../assets/images/footer\ mobile.png);
     width: 100%;
     height: 1529px;
@@ -274,7 +412,6 @@ footer .linksuteis {
 footer .linksuteis hr {
     border: #F9AA01 2px solid;
     width: 112px;
-    
 }
 
 footer .contatos {
@@ -301,8 +438,17 @@ footer .contatos hr {
     width: 112px;
 }
 
+footer .titulocontatos {
+    padding-bottom: 50px;
+}
+
+footer .linksuteis {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 footer .link {
-    
+    margin-left: 9px;
     display: flex;
     gap: 10px;  
     flex-wrap: wrap;
@@ -336,6 +482,7 @@ footer .jogadores {
 }
 
 footer .noticias {
+    padding-right: 10px;
     display: flex;
     align-items: baseline;   
     justify-content: center;
@@ -360,6 +507,91 @@ footer .titulolinks {
     margin-bottom: 30px;
 }
 
+footer .titulonews {
+    padding-bottom: 40px;
+}
+
+footer .newsletter {
+    padding-top: 90px;
+}
+
+footer .titulonews h2 {
+    
+    font-size: 30px;
+    font-family: Titiblack;
+
+}
+
+footer .titulonews hr {
+    border: #F9AA01 2px solid;
+    width: 112px;
+}
+
+footer .email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    /* margin-left: 30px; */
+    gap: 10px;
+    /* background-color: transparent; */
+    border: 1px solid transparent;
+    background: 
+       /* fundo */
+       linear-gradient(to right bottom, rgba(27, 20, 38, .6), rgba(60, 3, 65, .38)) padding-box,
+       /* fundo borda */
+       linear-gradient(90deg, rgba(255, 255, 255, .6), rgba(255, 255, 255, .1)) border-box;
+    width: 333px;
+    height: 40px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+footer .email input {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: Titiregular;
+}
+
+footer .email input::placeholder {
+    color: white;
+}
+
+footer .newsletter a {
+    font-size: 24px;
+    text-decoration: none;
+    width: 333px;
+    height: 40px;
+    color: black;
+    background-color: #F9AA01;
+    font-family: Titibold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    /* margin-left: 70px; */
+}
+
+footer .footfinal {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+footer .footfinal p {
+   padding-right: 56px;
+   font-size: 16px;
+   font-family: Titiregular;
+}
 /* ************************************* */
 
 

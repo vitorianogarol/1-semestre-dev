@@ -15,6 +15,11 @@
 }
 
 @font-face {
+    font-family: Quickregular;
+    src: url(../assets/fonts/quickregular/Quicksand-VariableFont_wght.ttf);
+}
+
+@font-face {
     font-family: Titiregular;
     src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
 }
