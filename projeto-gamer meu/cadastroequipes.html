@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Cadastro de Jogadores</title>
+    <title>Formulario de Cadastro de Equipes</title>
     <link rel="stylesheet" href="./css/cadastroequipes.css">
 </head>
 
@@ -108,34 +108,99 @@
 
     <!-- MAIN  -->
     <main>
-        <form action="">
-            <div class="caixa">
-                <div class="titulo-cadastro-equipes">
+        <section class="cadastro">
+            <div class="layout-grid">
+                <form action="">
+                    <div class="caixa">
+                        <div class="titulo-cadastro-equipes">
 
-                    <h1>Cadastro de Equipes</h1>
-                    <hr>
-                </div>
+                            <h1>Cadastro de Equipes</h1>
+                            <hr>
+                        </div>
 
-                <div class="flexinput">
-                    <div class="id">
-                        <input type="id" placeholder="Digite o Id da sua Equipe:">
+                        <div class="flexinput">
+                            <div class="id">
+                                <input type="id" placeholder="Digite o Id da sua Equipe:">
+                            </div>
+
+                            <div class="nome">
+                                <input type="nome" placeholder="Digite o nome da sua Equipe:">
+                            </div>
+                        </div>
+
+                        <div class="imagemequipe">
+                            <div class="botao">
+                                <button>Imagem da Equipe</button>
+                            </div>
+                            <p>Nenhuma imagem selecionada...</p>
+                        </div>
+
+                        <a href="">Cadastrar</a>
                     </div>
-
-                    <div class="nome">
-                        <input type="nome" placeholder="Digite o nome da sua Equipe:">
-                    </div>
-                </div>
-
-                <div class="imagemequipe">
-                    <div class="botao">
-                        <input type="text">
-                    </div>
-                    <p>Nenhuma imagem selecionada...</p>
-                </div>
-
-                <a href="">Cadastrar</a>
+                </form>
             </div>
-        </form>
+        </section>
+
+        <section class="tabela">
+            <div class="layout-grid">
+                <table>
+                    <thead>
+                        <tr id="titulo">
+                            <th>id</th>
+                            <th>loud</th>
+                            <th>foto</th>
+                            <th>none</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>loud</p>
+                            </td>
+                            <td><img src="./assets/images/LOUD_LOGO 1.svg" alt=""></td>
+                            <td><img src="./assets/icons/trash.svg" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>loud</p>
+                            </td>
+                            <td><img src="./assets/images/LOUD_LOGO 1.svg" alt=""></td>
+                            <td><img src="./assets/icons/trash.svg" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>loud</p>
+                            </td>
+                            <td><img src="./assets/images/LOUD_LOGO 1.svg" alt=""></td>
+                            <td><img src="./assets/icons/trash.svg" alt=""></td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <p>1</p>
+                            </td>
+                            <td>
+                                <p>loud</p>
+                            </td>
+                            <td><img src="./assets/images/LOUD_LOGO 1.svg" alt=""></td>
+                            <td><img src="./assets/icons/trash.svg" alt=""></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER S -->
@@ -147,13 +212,16 @@
                     altamente comprometida.</p>
                 <div class="redesfooter">
                     <a href="https://pt-br.facebook.com/">
-                        <img src="./assets/icons/facebook footer mobile.svg" alt="">
+                        <img src="./assets/icons/facebook footer mobile.svg"
+                            alt="Imagem icone facebook, redirecionamento a pagina">
                     </a>
                     <a href="https://br.linkedin.com/">
-                        <img src="./assets/icons/linkedin mobile footer.svg" alt="">
+                        <img src="./assets/icons/linkedin mobile footer.svg"
+                            alt="Imagem icone linkedin, redirecionamento a pagina">
                     </a>
                     <a href="">
-                        <img src="./assets/icons/instagram mobile footer.svg" alt="">
+                        <img src="./assets/icons/instagram mobile footer.svg"
+                            alt="Imagem icone instagram, redirecionamento a pagina">
                     </a>
                 </div>
             </div>
@@ -222,8 +290,8 @@
 
             <div class="footfinal">
 
-                <a id="seta" href="../projeto-gamer meu/cadastroequipes.html">
-                    <img src="./assets/icons/seta icone.svg" alt="">
+                <a id="seta" href="../projeto-gamer meu/index.html">
+                    <img src="./assets/icons/seta icone.svg" alt="Imagem seta icone, redireciona ao topo da pagina">
                 </a>
 
                 <p>©Copyright2022-GamerJogosDigitais</p>

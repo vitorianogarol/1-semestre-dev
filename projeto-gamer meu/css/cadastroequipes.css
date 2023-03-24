@@ -73,6 +73,7 @@ header {
     background-color: #1B1426;
     top: 0px;
     left: 0px;
+    padding-bottom: 40px;
 }
 
 header .header-top {
@@ -159,9 +160,9 @@ header .header-bottom nav .midias-sociais {
 
 
 main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
     height: 1231px;
     background-image: url(../assets/images/background\ equipes\ mobile.png);
     background-size: cover;
@@ -170,13 +171,16 @@ main {
     backdrop-filter: blur(40px);
 }
 
+main section .cadastro {
+    padding-top: 20px;
+}
+
 form {
-    margin-top: 30px;
+    padding-top: 80px;
 
 }
 
 main .caixa {
-    
     /* margin-left: 20px; */
     /* display: flex; */
     flex-direction: column;
@@ -192,7 +196,7 @@ main .caixa {
     height: 492px;
     /* background-image: linear-gradient(to right, rgba(27, 20, 38, 0.6), rgba(58, 3, 63, 0.3)); */
     backdrop-filter: blur(4px);
-    margin-bottom: 576px;
+    margin-top: 50px;
 }
 
 main .flexinput {
@@ -318,6 +322,48 @@ main a {
     margin-left: 31px;
 }
 
+main .botao button {
+    font-size: Titibold;
+    width: 124px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-family: Titibold;
+    font-size: 13px;
+}
+
+main .imagemequipe p {
+    font-size: 10px;
+    font-family: Titiregular;
+}
+
+main .imagemequipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main table thead th:last-of-type {
+    display: none;
+}
+
+main table thead th {
+    
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+main tr #titulo { 
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: row;
+}
+
 /* FOOTER ******************************** */
 
 footer{
@@ -364,6 +410,7 @@ footer .linksuteis hr {
 footer .contatos {
     margin-top: 50px;
 }
+
 footer .contatos p {
     font-size: 16px;
     font-family: Titibold;
@@ -399,7 +446,7 @@ footer .linksuteis {
 footer .link {
     margin-left: 9px;
     display: flex;
-    gap: 10px;  
+    gap: 25px;  
     flex-wrap: wrap;
 }
 
