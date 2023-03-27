@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Login</title>
-    <link rel="stylesheet" href="./css/login.css">
+    <title>Formulario de Cadastro de Jogadores</title>
+    <link rel="stylesheet" href="./css/cadastroejogadores.css">
 </head>
 
 <body>
@@ -108,28 +108,109 @@
 
     <!-- MAIN  -->
     <main>
-        <form action="">
-            <div class="caixa">
-                <div class="titulologin">
-                    <hr>
-                    <h1>Login</h1>
-                </div>
+        <section class="cadastro">
+            <div class="layout-grid">
+                <form action="">
+                    <div class="caixa">
+                        <div class="titulo-cadastro-equipes">
 
-                <div class="flexinput">
-                <div class="email">
-                    <img src=".//assets/icons/boneco login.svg" alt="">
-                    <input type="mail" placeholder="Digite seu e-mail:">
-                </div>
+                            <h1>Cadastro de</h1>
+                            <h1>Jogadores</h1>
+                            <hr>
+                        </div>
 
-                <div class="senha">
-                    <img src="./assets/icons/chave.svg" alt="">
-                    <input type="password" placeholder="Digite sua senha:">
-                </div>
-                </div>
+                        <div class="flexinput">
 
-                <a href="">Login</a>
+                            <div class="id">
+                                <input type="id" placeholder="Digite o Id da sua Equipe:">
+                            </div>
+
+                            <div class="equipe">
+                                <input type="equipe" placeholder="Selecione uma Equipe:">
+                                <img src="./assets/icons/seta input.svg" alt="">
+                            </div>
+
+                            <div class="jogador">
+                                <input type="jogador" placeholder="Digite o nome do Jogador:">
+                                
+                            </div>
+
+                            <div class="emailjogador">
+                                <input type="mail" placeholder="Digite o Email do Jogador:">
+                                
+                            </div>
+                            
+                            <div class="senha">
+                                <input type="password" placeholder="Digite a Senha:">
+                                
+                            </div>
+                        </div>
+
+                       
+
+                        <a href="">Cadastrar</a>
+                    </div>
+                </form>
             </div>
-        </form>
+        </section>
+
+        <section class="tabela">
+            <div class="layout-grid">
+                <div class="titulotabela">
+                    <h2 id="id">Id</h2>
+                    <h2 id="nome">Nome</h2>
+                    <h2 id="email">Email</h2>
+                </div>
+
+                <div class="caixaequipe">
+                    <p>1</p>
+                    <h2>João</h2>
+
+                    <div class="loud">
+                        <h3>joao@gmail.com</h3>
+                        <div class="linhaloud"></div>
+                    </div>
+
+                    <img id="trash" src="./assets/icons/trash.svg" alt="">
+                </div>
+
+                <div class="caixaequipe">
+                    <p>1</p>
+                    <h2>João</h2>
+
+                    <div class="loud">
+                        <h3>joao@gmail.com</h3>
+                        <div class="linhaloud"></div>
+                    </div>
+
+                    <img id="trash" src="./assets/icons/trash.svg" alt="">
+                </div>
+                <div class="caixaequipe">
+                    <p>1</p>
+                    <h2>João</h2>
+
+                    <div class="loud">
+                        <h3>joao@gmail.com</h3>
+                        <div class="linhaloud"></div>
+                    </div>
+
+                    <img id="trash" src="./assets/icons/trash.svg" alt="">
+                </div>
+                <div class="caixaequipe">
+                    <p>1</p>
+                    <h2>João</h2>
+
+                    <div class="loud">
+                        <h3>joao@gmail.com</h3>
+                        <div class="linhaloud"></div>
+                    </div>
+
+                    <img id="trash" src="./assets/icons/trash.svg" alt="">
+                </div>
+                
+             
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER S -->
@@ -141,13 +222,16 @@
                     altamente comprometida.</p>
                 <div class="redesfooter">
                     <a href="https://pt-br.facebook.com/">
-                        <img src="./assets/icons/facebook footer mobile.svg" alt="">
+                        <img src="./assets/icons/facebook footer mobile.svg"
+                            alt="Imagem icone facebook, redirecionamento a pagina">
                     </a>
                     <a href="https://br.linkedin.com/">
-                        <img src="./assets/icons/linkedin mobile footer.svg" alt="">
+                        <img src="./assets/icons/linkedin mobile footer.svg"
+                            alt="Imagem icone linkedin, redirecionamento a pagina">
                     </a>
                     <a href="">
-                        <img src="./assets/icons/instagram mobile footer.svg" alt="">
+                        <img src="./assets/icons/instagram mobile footer.svg"
+                            alt="Imagem icone instagram, redirecionamento a pagina">
                     </a>
                 </div>
             </div>
@@ -216,8 +300,8 @@
 
             <div class="footfinal">
 
-                <a id="seta" href="../projeto-gamer meu/login.html">
-                    <img src="./assets/icons/seta icone.svg" alt="">
+                <a id="seta" href="../projeto-gamer meu/index.html">
+                    <img src="./assets/icons/seta icone.svg" alt="Imagem seta icone, redireciona ao topo da pagina">
                 </a>
 
                 <p>©Copyright2022-GamerJogosDigitais</p>
