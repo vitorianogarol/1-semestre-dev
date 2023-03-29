@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-console\\projeto-console.csproj": {}
+    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-idade\\projeto-console.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-console\\projeto-console.csproj": {
+    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-idade\\projeto-console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-console\\projeto-console.csproj",
+        "projectUniqueName": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-idade\\projeto-console.csproj",
         "projectName": "projeto-console",
-        "projectPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-console\\projeto-console.csproj",
+        "projectPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-idade\\projeto-console.csproj",
         "packagesPath": "C:\\Users\\44072278858\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-console\\obj\\",
+        "outputPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\backend-1\\projeto-idade\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\44072278858\\AppData\\Roaming\\NuGet\\NuGet.Config",
