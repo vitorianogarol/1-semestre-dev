@@ -65,7 +65,7 @@
 
 // Console.WriteLine(5 == 5 && 8 == 8); //true && true = true 
 // Console.WriteLine(5 == 5 && 8 == 9); //true && false = false
-// Console.WriteLine(5 == 6 && 8 == 8); //false && true = false
+// Console.WriteLine(5 == 6 && 8 == 8).; //false && true = false
 // Console.WriteLine(5 == 6 && 8 == 9); //false && false = false
 
 // Console.WriteLine(2 == 2 || 3 == 3); //true || true = true 
