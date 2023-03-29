@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\bin\Debug\net7.0\projeto-extra.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\bin\Debug\net7.0\projeto-extra.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\bin\Debug\net7.0\projeto-extra.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\bin\Debug\net7.0\projeto-extra.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\bin\Debug\net7.0\projeto-extra.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\refint\projeto-extra.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\projeto-extra.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-extra\obj\Debug\net7.0\ref\projeto-extra.dll
