@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\bin\Debug\net7.0\exercicios-3.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\bin\Debug\net7.0\exercicios-3.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\bin\Debug\net7.0\exercicios-3.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\bin\Debug\net7.0\exercicios-3.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\bin\Debug\net7.0\exercicios-3.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\refint\exercicios-3.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\exercicios-3.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\atividades-condicionais\exercicios-3\obj\Debug\net7.0\ref\exercicios-3.dll
