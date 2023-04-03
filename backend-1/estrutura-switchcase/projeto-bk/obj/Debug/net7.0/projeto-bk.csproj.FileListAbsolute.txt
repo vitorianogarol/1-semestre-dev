@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\bin\Debug\net7.0\projeto-bk.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\bin\Debug\net7.0\projeto-bk.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\bin\Debug\net7.0\projeto-bk.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\bin\Debug\net7.0\projeto-bk.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\bin\Debug\net7.0\projeto-bk.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\refint\projeto-bk.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\projeto-bk.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-switchcase\projeto-bk\obj\Debug\net7.0\ref\projeto-bk.dll
