@@ -25,7 +25,7 @@ Console.WriteLine(@$"
 ---------------------------
 ");
 
-Console.WriteLine($"Escolha sua bebida.");
+Console.Write($"Escolha sua bebida:");
 string pedido = (Console.ReadLine());
 Console.ResetColor();
 
@@ -33,61 +33,71 @@ Console.BackgroundColor = ConsoleColor.Yellow;
 switch (pedido)
 {
     case "123":
-        Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
-        int geloMonster = int.Parse (Console.ReadLine());
+        Console.Write($"Deseja adicionar gelo? Digite 1 para sim e 2 para não:");
+        int geloMonster = int.Parse(Console.ReadLine());
 
         if (geloMonster == 1)
         {
-            Console.WriteLine($"Bebida com gelo");
+            Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else {
-            Console.WriteLine($"Bebida sem gelo");
-            
+        else
+        {
+            Console.WriteLine($"Bebida sem gelo!");
+
         }
         break;
 
     case "321":
         Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
-        int geloFanta = int.Parse (Console.ReadLine());
+        int geloFanta = int.Parse(Console.ReadLine());
 
         if (geloFanta == 1)
         {
-            Console.WriteLine($"Bebida com gelo");
+            Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else {
-            Console.WriteLine($"Bebida sem gelo");
-            
+        else
+        {
+            Console.WriteLine($"Bebida sem gelo!");
+
         }
         break;
 
     case "456":
         Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
-        int geloPepsi = int.Parse (Console.ReadLine());
+        int geloPepsi = int.Parse(Console.ReadLine());
 
         if (geloPepsi == 1)
         {
-            Console.WriteLine($"Bebida com gelo");
+            Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else {
-            Console.WriteLine($"Bebida sem gelo");
-            
+        else
+        {
+            Console.WriteLine($"Bebida sem gelo!");
+
         }
         break;
 
     case "654":
         Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
-        int geloCoca = int.Parse (Console.ReadLine());
+        int geloCoca = int.Parse(Console.ReadLine());
 
         if (geloCoca == 1)
         {
-            Console.WriteLine($"Bebida com gelo");
+            Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else {
-            Console.WriteLine($"Bebida sem gelo");
-            
+        else
+        {
+            Console.WriteLine($"Bebida sem gelo!");
+
         }
         break;
-        // default:
+
+        Console.BackgroundColor = ConsoleColor.Red;
+    default:
+        Console.WriteLine($"!ERRO! Nenhuma das opções é válida");
+        break;
+
+        Console.ResetColor();
 
 }
 
