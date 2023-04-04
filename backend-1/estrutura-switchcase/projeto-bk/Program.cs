@@ -26,7 +26,7 @@ Console.WriteLine(@$"
 ");
 
 Console.Write($"Escolha sua bebida:");
-int pedido = int.Parse (Console.ReadLine());
+int pedido = int.Parse(Console.ReadLine());
 Console.ResetColor();
 
 Console.BackgroundColor = ConsoleColor.Yellow;
@@ -40,10 +40,18 @@ switch (pedido)
         {
             Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else
+        else if (geloMonster == 2)
         {
             Console.WriteLine($"Bebida sem gelo!");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Otima escolha. Aproveite seu pedido!");
+            Console.ResetColor();
 
+
+        }
+        else
+        {
+            Console.WriteLine($"Opção inválida");
         }
         break;
 
@@ -55,10 +63,18 @@ switch (pedido)
         {
             Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else
+        else if (geloFanta == 2)
         {
             Console.WriteLine($"Bebida sem gelo!");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Otima escolha. Aproveite seu pedido!");
+            Console.ResetColor();
 
+
+        }
+        else
+        {
+            Console.WriteLine($"Opção inválida");
         }
         break;
 
@@ -70,11 +86,20 @@ switch (pedido)
         {
             Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else
+        else if (geloPepsi == 2)
         {
             Console.WriteLine($"Bebida sem gelo!");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Otima escolha. Aproveite seu pedido!");
+            Console.ResetColor();
+
 
         }
+        else
+        {
+            Console.WriteLine($"Opção inválida");
+        }
+
         break;
 
     case 654:
@@ -85,16 +110,25 @@ switch (pedido)
         {
             Console.WriteLine($"Excelente escola! Bebida com gelo.");
         }
-        else
+        else if (geloCoca == 2)
         {
             Console.WriteLine($"Bebida sem gelo!");
+            Console.BackgroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Otima escolha. Aproveite seu pedido!");
+            Console.ResetColor();
+
 
         }
+        else
+        {
+            Console.WriteLine($"Opção inválida");
+        }
+
         break;
 
         Console.BackgroundColor = ConsoleColor.Red;
     default:
-        Console.WriteLine($"!ERRO! Nenhuma das opções é válida");
+        Console.WriteLine($"!ERRO! Opção inválida");
         break;
 
         Console.ResetColor();
@@ -103,7 +137,5 @@ switch (pedido)
 
 Console.ResetColor();
 
-Console.BackgroundColor = ConsoleColor.Red;
-Console.WriteLine($"Otima escolha. Aproveite seu pedido!");
-Console.ResetColor();
+
 
