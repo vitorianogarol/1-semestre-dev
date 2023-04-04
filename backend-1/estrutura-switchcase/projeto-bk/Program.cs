@@ -18,10 +18,10 @@ Console.WriteLine(@$"
 |                         | 
 |   !!  Cardapio !!       |
 |                         |
-|       Monster           |
-|        Fanta            |
-|        Pepsi            |
-|         Coca            |
+|      123 Monster        |
+|      321 Fanta          |
+|      456 Pepsi          |
+|       654 Coca          |
 ---------------------------
 ");
 
@@ -32,7 +32,7 @@ Console.ResetColor();
 Console.BackgroundColor = ConsoleColor.Yellow;
 switch (pedido)
 {
-    case "Monster":
+    case "123":
         Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
         int geloMonster = int.Parse (Console.ReadLine());
 
@@ -46,7 +46,7 @@ switch (pedido)
         }
         break;
 
-    case "Fanta":
+    case "321":
         Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
         int geloFanta = int.Parse (Console.ReadLine());
 
@@ -60,7 +60,7 @@ switch (pedido)
         }
         break;
 
-    case "Pepsi":
+    case "456":
         Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
         int geloPepsi = int.Parse (Console.ReadLine());
 
@@ -74,7 +74,7 @@ switch (pedido)
         }
         break;
 
-    case "Coca":
+    case "654":
         Console.WriteLine($"Deseja adicionar gelo? Digite 1 para sim e 2 para não");
         int geloCoca = int.Parse (Console.ReadLine());
 
