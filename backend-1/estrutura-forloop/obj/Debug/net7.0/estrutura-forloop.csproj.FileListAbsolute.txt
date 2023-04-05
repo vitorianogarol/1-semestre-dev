@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\bin\Debug\net7.0\estrutura-forloop.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\bin\Debug\net7.0\estrutura-forloop.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\bin\Debug\net7.0\estrutura-forloop.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\bin\Debug\net7.0\estrutura-forloop.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\bin\Debug\net7.0\estrutura-forloop.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\refint\estrutura-forloop.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\estrutura-forloop.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estrutura-forloop\obj\Debug\net7.0\ref\estrutura-forloop.dll
