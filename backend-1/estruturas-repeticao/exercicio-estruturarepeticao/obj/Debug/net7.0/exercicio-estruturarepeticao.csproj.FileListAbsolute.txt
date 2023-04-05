@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\bin\Debug\net7.0\exercicio-estruturarepeticao.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\bin\Debug\net7.0\exercicio-estruturarepeticao.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\bin\Debug\net7.0\exercicio-estruturarepeticao.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\bin\Debug\net7.0\exercicio-estruturarepeticao.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\bin\Debug\net7.0\exercicio-estruturarepeticao.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\refint\exercicio-estruturarepeticao.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\exercicio-estruturarepeticao.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicio-estruturarepeticao\obj\Debug\net7.0\ref\exercicio-estruturarepeticao.dll
