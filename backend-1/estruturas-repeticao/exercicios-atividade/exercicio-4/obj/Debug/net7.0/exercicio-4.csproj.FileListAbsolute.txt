@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\bin\Debug\net7.0\exercicio-4.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\bin\Debug\net7.0\exercicio-4.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\bin\Debug\net7.0\exercicio-4.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\bin\Debug\net7.0\exercicio-4.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\bin\Debug\net7.0\exercicio-4.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\refint\exercicio-4.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\exercicio-4.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exercicio-4\obj\Debug\net7.0\ref\exercicio-4.dll
