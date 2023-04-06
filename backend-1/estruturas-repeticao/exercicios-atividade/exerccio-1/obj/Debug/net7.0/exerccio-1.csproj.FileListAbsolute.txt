@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\bin\Debug\net7.0\exerccio-1.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\bin\Debug\net7.0\exerccio-1.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\bin\Debug\net7.0\exerccio-1.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\bin\Debug\net7.0\exerccio-1.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\bin\Debug\net7.0\exerccio-1.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\refint\exerccio-1.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\exerccio-1.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\estruturas-repeticao\exercicios-atividade\exerccio-1\obj\Debug\net7.0\ref\exerccio-1.dll
