@@ -6,40 +6,108 @@
 // D.A porcentagem de homens que responderam NÃO entre todos os homens analisados.
 
 
+char sexo;
+char gostouDoProduto;
+
 int pessoasS = 0;
 int pessoasN = 0;
-int femS = 0; 
+
+int femS = 0;
+int fem = 0;
+
 int mascN = 0;
+int masc = 0;
 
-for ( int contador = 1; contador <= 10; contador ++)
+float porcentagemHomemNao;
+
+for (int i = 0; i <= 10; i++)
 {
-    Console.WriteLine($"Qual seu genero? Insira m para masculino, e f para feminino.");
-    char genero = char.Parse(Console.ReadLine());
+    Console.WriteLine($"Informe o sexo da pessoa. (m) para Masculino e (f) para feminino");
+    sexo = char.Parse (Console.ReadLine());
+    
+    if (sexo == 'f') {
+        fem++;
 
-    Console.WriteLine($"Gostou do produto lançado? Insira s para sim, e n para não.");
-    char produto = char.Parse(Console.ReadLine());
-
-    switch (produto)
-    {
-        case 's':
-        pessoasS ++;
-
-        if (genero == 'f' ) {
-            femS ++;
-        }
-        break;
-
-        case 'n':
-        pessoasN ++;
-
-        if (genero == 'm') {
-            mascN ++;
-        }
-        break;
-
-        // default:
     }
-  
+
+    else {
+        masc++;
+    }
+
+    Console.WriteLine($"A pessoa gostou do lançamento? (s) para sim e (n) para não.");
+    gostouDoProduto = char.Parse (Console.ReadLine());
+    
+    if (gostouDoProduto == 's') {
+        pessoasS ++; 
+
+        if (sexo == 'f')
+        {
+                femS++;
+        }
+    }
+     else {
+        pessoasN++;
+
+        if (sexo == 'm'){
+            mascN++;
+        }
+     }
 }
 
-    Console.WriteLine($"O numero de pessoas que responderam sim, foi: {pessoasS}. O numero de pessoas que responderam nao, foi: {pessoasN}. Numero de mulheres que responderam sim, foi: {femS}. E a porcentagem de homens que responderam nao, foi {mascN }");
+porcentagemHomemNao = ((float)mascN / (float) masc )* 100;
+
+Console.WriteLine($"A porcentagem de homens que responderam que não gostaram do produto é de {porcentagemHomemNao}. O numero de pessoas que responderam sim foi de {pessoasS}. O numero de pessoas que responderam não foi de {pessoasN}. O numero de mulheres que responderam sim foi de {femS}");
+
+
+// char sexo;
+// char gostouDoProduto;
+
+// int pessoasS = 0;
+// int pessoasN = 0;
+
+// int femS = 0;
+// int fem = 0;
+
+// int mascN = 0;
+// int masc = 0;
+
+// float porcentagemHomemNao;
+
+// for (int contador = 1; contador <= 3; contador++)
+// {
+//     Console.WriteLine($"Qual seu genero? Insira 1 para masculino, e 2 para feminino.");
+//     char genero = char.Parse(Console.ReadLine());
+
+//     Console.WriteLine($"Gostou do produto lançado? Insira 1 para sim, 2 para não.");
+//     char produto = char.Parse(Console.ReadLine());
+
+//     switch (produto)
+//     {
+//         case 's':
+//             pessoasS++;
+
+//             if (genero == 'f')
+//             {
+//                 femS++;
+//             }
+//             break;
+
+//         case 'n':
+//             pessoasN++;
+
+//             if (genero == 'm')
+//             {
+//                 mascN++;
+//                 masc++;
+                
+//             }
+//             break;
+
+            
+
+//             // default:
+//     }
+
+// }
+
+// Console.WriteLine($"O numero de pessoas que responderam sim, foi: {pessoasS}. O numero de pessoas que responderam nao, foi: {pessoasN}. Numero de mulheres que responderam sim, foi: {femS}. E a porcentagem de homens que responderam nao, foi {mascN}");
