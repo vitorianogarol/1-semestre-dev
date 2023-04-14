@@ -25,35 +25,50 @@ char combustivelGA = char.Parse(Console.ReadLine());
 switch (combustivelGA)
 {
     case 'a':
+        Console.WriteLine($"Insira a quantidade de litros");
+        float quantidadeAlcool = float.Parse(Console.ReadLine());
+
+        Console.WriteLine($"R$ {Alcool(quantidadeAlcool, valoralcool)}");
+
+
 
         break;
-    default:
+
+    case 'g':
+        Console.WriteLine($"Insira q quantidade de litros para a gasolina.");
+        float quantidadeGasolina = float.Parse(Console.ReadLine());
+
+        Console.WriteLine($"R${Gasolina(quantidadeGasolina, valorgasolina)}");
+
+
         break;
 }
 
-
-
-
-
-Console.WriteLine($"Insira a quantidade de litros");
-float quantidade = float.Parse(Console.ReadLine());
-
-
-
-
-
-
-
-
-
-static float Alcool(float quantidade)
+static float Alcool(float quantidade, float preco)
 {
-    return valoralcool * quantidade;
+    if (quantidade <= 20)
+    {
+        return (quantidade * preco) * 0.97F;
+    }
+    else
+    {
+        return (quantidade * preco) * 0.95F;
+    }
 }
 
 
 
-
+static float Gasolina(float quantidade, float preco)
+{
+    if (quantidade <= 20)
+    {
+        return (quantidade * preco) * 0.96F;
+    }
+    else
+    {
+        return (quantidade * preco) * 0.94F;
+    }
+}
 
 
 
