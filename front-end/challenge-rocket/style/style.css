@@ -1,0 +1,24 @@
+/* ************************ */
+
+/* reset css  */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ************************ */
+
+/* layout grid ******************** */
+.layout-grid {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+
+    /* border: 1px solid salmon; */
+}
+
+body {
+background-color: #8E87FA;
+}
+

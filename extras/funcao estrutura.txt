@@ -1,0 +1,5 @@
+//estrutura funcao 
+
+//tipo  tipoDado  nomeFuncao(parametros ou argumentos){
+// corpo da funcao
+}

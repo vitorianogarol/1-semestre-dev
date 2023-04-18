@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\bin\Debug\net7.0\projeto-passagens.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\bin\Debug\net7.0\projeto-passagens.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\bin\Debug\net7.0\projeto-passagens.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\bin\Debug\net7.0\projeto-passagens.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\bin\Debug\net7.0\projeto-passagens.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\refint\projeto-passagens.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\projeto-passagens.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-passagens\obj\Debug\net7.0\ref\projeto-passagens.dll
