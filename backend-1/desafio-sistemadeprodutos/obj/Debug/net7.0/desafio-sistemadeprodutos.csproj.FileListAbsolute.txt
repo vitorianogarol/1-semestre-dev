@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\bin\Debug\net7.0\desafio-sistemadeprodutos.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\bin\Debug\net7.0\desafio-sistemadeprodutos.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\bin\Debug\net7.0\desafio-sistemadeprodutos.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\bin\Debug\net7.0\desafio-sistemadeprodutos.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\bin\Debug\net7.0\desafio-sistemadeprodutos.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\refint\desafio-sistemadeprodutos.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\desafio-sistemadeprodutos.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\desafio-sistemadeprodutos\obj\Debug\net7.0\ref\desafio-sistemadeprodutos.dll
