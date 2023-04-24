@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\bin\Debug\net7.0\exercicio-poo 24.04.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\bin\Debug\net7.0\exercicio-poo 24.04.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\bin\Debug\net7.0\exercicio-poo 24.04.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\bin\Debug\net7.0\exercicio-poo 24.04.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\bin\Debug\net7.0\exercicio-poo 24.04.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\refint\exercicio-poo 24.04.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\exercicio-poo 24.04.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo 24.04\obj\Debug\net7.0\ref\exercicio-poo 24.04.dll

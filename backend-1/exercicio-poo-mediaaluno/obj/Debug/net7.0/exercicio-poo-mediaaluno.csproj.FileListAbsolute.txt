@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\bin\Debug\net7.0\exercicio-poo-mediaaluno.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\bin\Debug\net7.0\exercicio-poo-mediaaluno.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\bin\Debug\net7.0\exercicio-poo-mediaaluno.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\bin\Debug\net7.0\exercicio-poo-mediaaluno.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\bin\Debug\net7.0\exercicio-poo-mediaaluno.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\refint\exercicio-poo-mediaaluno.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\exercicio-poo-mediaaluno.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio-poo-mediaaluno\obj\Debug\net7.0\ref\exercicio-poo-mediaaluno.dll
