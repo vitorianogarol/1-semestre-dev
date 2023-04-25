@@ -21,6 +21,7 @@ using exercicio_poo_mediaaluno;
 
 DadosALunos d1 = new DadosALunos();
 
+Console.ForegroundColor = ConsoleColor.Blue;
 Console.WriteLine(@$"
 --------------------------------------------------
 |  Olá, aluno. Seja bem-vindo ao nosso sistema.  |
@@ -28,47 +29,35 @@ Console.WriteLine(@$"
 |  você antes de começarmos.                     |
 -------------------------------------------------");
 
+Console.ForegroundColor = ConsoleColor.Red;
 Console.WriteLine($"Informe seu nome:");
-d1.nome = Console.ReadLine();
+d1.Nome = Console.ReadLine();
 
 Console.WriteLine($"Informe seu curso:");
-d1.curso = Console.ReadLine();
+d1.Curso = Console.ReadLine();
 
 Console.WriteLine($"Informe sua idade:");
-d1.idade = int.Parse(Console.ReadLine());
+d1.Idade = int.Parse(Console.ReadLine());
 
 Console.WriteLine($"Informe seu RG:");
-d1.rg = Console.ReadLine();
+d1.Rg = Console.ReadLine();
 
 bolsa:
 Console.WriteLine($"Ë bolsisita. S/n");
 string resposta = Console.ReadLine();
 
-if (resposta == "s")
-{
-    d1.bolsa = true;
-}
-else if (resposta == "n")
-{
-    d1.bolsa = false;
-}
-else
-{
-    Console.WriteLine($"Invalido. Tente novamente.");
-    goto bolsa;
-
-}
+d1.Bolsa = resposta == "s" ? true : false;
 
 Console.WriteLine($"Insira sua media final:");
-d1.media = float.Parse(Console.ReadLine());
+d1.Media = float.Parse(Console.ReadLine());
 
 Console.WriteLine($"Insira o valor da sua mensalidade:");
-d1.mensalidade = float.Parse(Console.ReadLine());
+d1.Mensalidade = float.Parse(Console.ReadLine());
 
 menu:
 
 Console.WriteLine($@"
-Muito bem! Agora solicite o que deseja.
+Muito bem, {d1.Nome}! Agora solicite o que deseja.
 
 -------------------------------
 |           Digite:            |
@@ -88,7 +77,7 @@ switch (respostaMenu)
         break;
 
     case "b":
-        d1.VerMensalidade(d1.bolsa, d1.media, d1.mensalidade);
+        d1.VerMensalidade(d1.Bolsa, d1.Media, d1.Mensalidade);
         goto menu;
 
         break;

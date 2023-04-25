@@ -4,42 +4,42 @@ namespace exercicio_poo_mediaaluno
     public class DadosALunos
     {
 
-        public string nome;
+        public string Nome;
 
-        public string curso;
+        public string Curso;
 
-        public int idade;
+        public int Idade;
 
-        public string rg;
+        public string Rg;
 
-        public float media;
+        public float Media;
 
-        public float mensalidade;
+        public float Mensalidade;
 
-        public bool bolsa;
+        public bool Bolsa;
 
         public void VerMediaFinal()
         {
-            Console.WriteLine($"Sua media é {media}");
+            Console.WriteLine($"Sua media é {this.Media}");
 
         }
 
         public void VerMensalidade(bool bolsa, float media, float mensalidade)
         {
 
-            if (bolsa == true && media >= 8)
+            if (this.Bolsa == true && this.Media >= 8)
             {
-                Console.WriteLine($"Sua mensalidade é {mensalidade / 2}");
+                Console.WriteLine($"Sua mensalidade é {(this.Mensalidade / 2).ToString("C", new System.Globalization.CultureInfo("pt-BR"))}");
 
             }
-            else if (bolsa == true && media > 6 && media < 8)
+            else if (this.Bolsa == true && this.Media > 6)
             {
-                Console.WriteLine($"Sua mensalidade é {mensalidade * 0.7F}");
+                Console.WriteLine($"Sua mensalidade é {(this.Mensalidade * 0.7F).ToString("C", new System.Globalization.CultureInfo("pt-BR"))}");
 
             }
             else
             {
-                Console.WriteLine($"Sua mensalidade é integral. Portanto, será {mensalidade}");
+                Console.WriteLine($"Sua mensalidade é integral. Portanto, será {(this.Mensalidade).ToString("C", new System.Globalization.CultureInfo("pt-BR"))}");
 
             }
 
