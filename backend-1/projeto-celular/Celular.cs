@@ -14,17 +14,19 @@ namespace projeto_celular
 
         public string Tamanho;
 
-        public bool Ligado = false;
+        public bool Ligado;
 
         public void Ligar()
         {
-            Console.WriteLine($"Celular esta desligado.");
+          
+            Console.WriteLine($"Celular esta ligado.");
 
         }
 
         public void Desligar()
         {
-            Console.WriteLine($"CElular desligado.");
+            
+            Console.WriteLine($"Celular esta desligado.");
 
         }
 

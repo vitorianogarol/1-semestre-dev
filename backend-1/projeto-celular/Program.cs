@@ -8,26 +8,66 @@ using projeto_celular;
 
 Celular c1 = new Celular();
 
-Console.WriteLine($"Bem-vindo ao seu celular. Ele esta ligado? S/n");
+inicio:
+Console.WriteLine($"Qual a cor do seu celular?");
+c1.Cor = Console.ReadLine();
+
+Console.WriteLine($"Qual o modelo do seu celular?");
+c1.Modelo = Console.ReadLine();
+
+Console.WriteLine($"Qual o tamanho do seu celular?");
+c1.Tamanho = Console.ReadLine();
+
+
+Console.WriteLine($"Ele esta ligado? Digite 1 para sim, e 2 para nao");
 string resposta = Console.ReadLine();
 
-switch (resposta)
+if (resposta == "1")
 {
-    case "s":
-        c1.Ligado = true;
-
-        Console.WriteLine($@"
-        ----------------------------
-        |    Certo. Escolha a      |
-        |      sua função.         |
-        |  (a) - Fazer ligação.    |
-        |  (b) - Enviar mensagem.  |
-        |  (c) - Desligar          |
-        ----------------------------");
-        
-
-        break;
-    default:
-        break;
+    c1.Ligado = true;
 }
 
+else
+{
+
+    c1.Ligado = false;
+    Environment.Exit(2);
+  
+
+
+}
+
+if (c1.Ligado = true)
+{
+menu:
+    Console.WriteLine($@"
+         ----------------------------
+         |    Certo. Escolha a      |
+         |      sua função.         |
+         |  (a) - Fazer ligação.    |
+         |  (b) - Enviar mensagem.  |
+         |  (c) - Desligar          |
+         ---------------------------");
+    string resposta2 = Console.ReadLine();
+    switch (resposta2)
+    {
+        case "a":
+
+            c1.FazerLigacao();
+            goto menu;
+            break;
+
+        case "b":
+            c1.EnviarMensagem();
+            goto menu;
+
+        case "c":
+            c1.Desligar();
+            break;
+
+    }
+}
+else
+{
+    c1.Desligar();
+}
