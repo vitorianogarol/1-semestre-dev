@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\bin\Debug\net7.0\listsobjetos.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\bin\Debug\net7.0\listsobjetos.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\bin\Debug\net7.0\listsobjetos.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\bin\Debug\net7.0\listsobjetos.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\bin\Debug\net7.0\listsobjetos.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\refint\listsobjetos.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\listsobjetos.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\listsobjetos\obj\Debug\net7.0\ref\listsobjetos.dll

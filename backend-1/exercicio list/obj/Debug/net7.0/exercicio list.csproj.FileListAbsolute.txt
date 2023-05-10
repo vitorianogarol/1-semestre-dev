@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\bin\Debug\net7.0\exercicio list.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\bin\Debug\net7.0\exercicio list.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\bin\Debug\net7.0\exercicio list.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\bin\Debug\net7.0\exercicio list.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\bin\Debug\net7.0\exercicio list.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\refint\exercicio list.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\exercicio list.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio list\obj\Debug\net7.0\ref\exercicio list.dll

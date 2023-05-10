@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\bin\Debug\net7.0\cafe.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\bin\Debug\net7.0\cafe.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\bin\Debug\net7.0\cafe.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\bin\Debug\net7.0\cafe.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\bin\Debug\net7.0\cafe.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\refint\cafe.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\cafe.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\cafe\obj\Debug\net7.0\ref\cafe.dll
