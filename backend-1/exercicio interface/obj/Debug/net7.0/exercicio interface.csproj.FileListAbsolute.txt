@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\bin\Debug\net7.0\exercicio interface.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\bin\Debug\net7.0\exercicio interface.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\bin\Debug\net7.0\exercicio interface.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\bin\Debug\net7.0\exercicio interface.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\bin\Debug\net7.0\exercicio interface.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\refint\exercicio interface.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\exercicio interface.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\exercicio interface\obj\Debug\net7.0\ref\exercicio interface.dll

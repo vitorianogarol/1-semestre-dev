@@ -8,7 +8,7 @@ namespace exercicio_interface
         {
             Cnpj = cnpj;
 
-            if (Cnpj.Length > 14)
+            if (Cnpj.Length >= 14)
             {
                 return true;
             }
