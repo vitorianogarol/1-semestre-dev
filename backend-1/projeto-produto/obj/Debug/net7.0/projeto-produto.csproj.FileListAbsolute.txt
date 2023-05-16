@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\bin\Debug\net7.0\projeto-produto.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\bin\Debug\net7.0\projeto-produto.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\bin\Debug\net7.0\projeto-produto.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\bin\Debug\net7.0\projeto-produto.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\bin\Debug\net7.0\projeto-produto.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\refint\projeto-produto.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\projeto-produto.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\backend-1\projeto-produto\obj\Debug\net7.0\ref\projeto-produto.dll
