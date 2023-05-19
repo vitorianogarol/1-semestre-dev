@@ -1,41 +1,69 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace projeto_produto
 {
     public class Usuario
     {
-        private int Codigo { get; set; }
+        public int Codigo { get; private set; }
 
-        private string Nome { get; set; }
+        public string Nome { get; private set; }
 
-        private string Email { get; set; }
+        public string Email { get; private set; }
 
-        private string Senha { get; set; }
+        public string Senha { get; private set; }
 
-        private DateTime DataCadastro { get; set; }
+        public DateTime DataCadastro { get; private set; }
 
-        public string Cadastrar(Usuario usuario)
+        // public Usuario()
+        // {
+        //     // Cadastrar();
+        // }
+
+
+        public void Cadastrar()
         {
-            return
-            Nome = "Vic";
-            Email = "vitoriaemail";
-            Senha = "1";
-            Codigo = 13;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.WriteLine($@"
+            Bem-vindo ao programa Produto 
+              Vamos concluir seu cadastro
+
+               INSIRA SUAS INFORMAÇÕES!
+            =============================");
+
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.Write($"Nome: ");
+            this.Nome = Console.ReadLine();
+
+            Console.Write($"Email: ");
+            this.Email = Console.ReadLine();
+
+            Console.Write($"Senha: ");
+            this.Senha = Console.ReadLine();
+
+            Console.Write($"Codigo: ");
+            this.Codigo = int.Parse(Console.ReadLine());
+
+            this.DataCadastro = DateTime.Now;
+
+ Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"");
+            Console.WriteLine($@" 
+            Olá, {this.Nome}!
+            ----------------------------------------- 
+            Email: {this.Email}
+            Código: {this.Codigo}
+            Sua data de Cadastro: {this.DataCadastro}");
+            Console.WriteLine($"");
 
 
 
         }
-        public string Deletar(Usuario usuario)
+        public void Deletar()
         {
-            return
-            Nome = "";
-            Email = "";
-            Senha = "";
-            Codigo = 0;
-            DataCadastro = DateTime.Parse("0000-00-00T00:00:00");
+
+            this.Nome = "";
+            this.Email = "";
+            this.Senha = "";
+            this.Codigo = 0;
+            this.DataCadastro = DateTime.Parse("0000-00-00T00:00:00");
         }
     }
 }

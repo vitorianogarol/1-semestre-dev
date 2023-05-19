@@ -7,11 +7,11 @@ namespace projeto_produto
 {
     public class Marca
     {
-        public int Codigo { get; set; }
+        public int Codigo { get; private set; }
 
-        public string NomeMarca { get; set; }
+        public string NomeMarca { get; private set; }
 
-        public DateTime DataCadastro { get; set; }
+        public DateTime DataCadastro = new DateTime();
 
         List<Marca> marca = new List<Marca>();
         public void Listar()
@@ -19,41 +19,50 @@ namespace projeto_produto
 
             if (marca.Count > 0)
             {
+                DataCadastro = DateTime.Now;
                 foreach (Marca m in marca)
                 {
-                Console.WriteLine($@"
-                Codigo: {m.Codigo}
-                Nome da Marca: {m.NomeMarca}
-                Data de Cadastro: {m.DataCadastro}");
 
+                    Console.ForegroundColor = ConsoleColor.DarkRed;
+                    Console.WriteLine($@"
+                Codigo da marca: {m.Codigo}
+                Nome da marca: {m.NomeMarca}
+                Data de cadastro: {m.DataCadastro}
+
+                ======================================
+                ");
                 }
             }
+            else
+            {
+                Console.WriteLine($"Não há marcas.");
+
+            }
 
         }
-        public string Cadastrar(Marca _marca)
+        public Marca Cadastrar()
         {
-            for (var i = 0; i < 2; i++)
-            {
+
             Marca m = new Marca();
-            Console.WriteLine($"Insira o codigo da sua marca?");
+            m.DataCadastro = DateTime.Now;
+            Console.WriteLine($"Insira o codigo da sua marca:");
             m.Codigo = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"Insira o Nome da sua marca?");
+            Console.WriteLine($"Insira o nome da sua marca:");
             m.NomeMarca = Console.ReadLine();
 
-            Console.WriteLine($"Data do Cadastro: {DataCadastro}");
+            marca.Add(m);
 
-            marca.Add(m);  
-            }
-            
-            return "marca cadastrada";
-
+            return m;
 
         }
 
-        // public string Deletar(Marca _marca)
-        // {
-        //     marca.RemoveAll(_marca);
-        // }
+        public string Deletar(int codigo)
+        {
+            Marca m = marca.Find(x => x.Codigo == codigo);
+            marca.Remove(m);
+
+            return "marca deletada";
+        }
     }
 }
