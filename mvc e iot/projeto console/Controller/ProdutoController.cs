@@ -10,14 +10,24 @@ namespace projeto_console.Controller
         Produto produto = new Produto();
         ProdutoView produtoView = new ProdutoView();
 
+
+
         //metodo controlador para acessae a listagem de produtos 
         public void ListarProdutos()
         {
             //chamada da model trazendo a lista
-           List<Produto> produtos = produto.Ler();
+            List<Produto> produtos = produto.Ler();
 
-           //chamada da view passando a
-           produtoView.Listar(produtos);
+            //chamada da view passando a
+            produtoView.Listar(produtos);
+        }
+
+        public void CadastrarController(Produto p)
+        {
+
+           Produto novoProduto = produtoView.Cadastrar();
+           produto.Inserir(novoProduto);
+
         }
     }
 }

@@ -14,9 +14,24 @@ namespace projeto_console.View
                 Codigo: {item.Codigo}
                 Nome: {item.Nome}
                 Preço: {item.Preco:C}
-                ");
-                
+                ");     
             }
+        }
+
+        public Produto Cadastrar(){
+            Produto novoProduto = new Produto();
+
+            Console.WriteLine($"Informe o codigo:");
+            novoProduto.Codigo = int.Parse (Console.ReadLine());
+            
+            Console.WriteLine($"Informe o nome:");
+            novoProduto.Nome = Console.ReadLine();
+            
+            Console.WriteLine($"Informe o preço:");
+            novoProduto.Preco = float.Parse (Console.ReadLine()) ; 
+
+            return novoProduto;
+
         }
     }
 }

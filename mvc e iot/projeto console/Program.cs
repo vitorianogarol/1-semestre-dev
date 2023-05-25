@@ -3,4 +3,5 @@ using projeto_console.Model;
 
 Produto p = new Produto();
 ProdutoController controller = new ProdutoController();
+controller.CadastrarController(p);
 controller.ListarProdutos();
