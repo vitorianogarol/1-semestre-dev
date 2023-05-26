@@ -1,0 +1,15 @@
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\bin\Debug\net7.0\exercicio console.exe
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\bin\Debug\net7.0\exercicio console.deps.json
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\bin\Debug\net7.0\exercicio console.runtimeconfig.json
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\bin\Debug\net7.0\exercicio console.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\bin\Debug\net7.0\exercicio console.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.csproj.AssemblyReference.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.AssemblyInfoInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.AssemblyInfo.cs
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.csproj.CoreCompileInputs.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\refint\exercicio console.dll
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.pdb
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\exercicio console.genruntimeconfig.cache
+C:\Users\44072278858\Desktop\1-semestre-dev\mvc e iot\exercicio console\obj\Debug\net7.0\ref\exercicio console.dll
