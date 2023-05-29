@@ -1,0 +1,16 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace projeto_gamer_mvc.Models
+{
+    public class Equipe
+    {
+        [Key]
+        public int IdEquipe { get; set; }
+        
+        public string Nome { get; set; }
+
+        public int Imagem { get; set; }
+        
+        public ICollection<Jogador> Jogador { get; set; }
+    }
+}
