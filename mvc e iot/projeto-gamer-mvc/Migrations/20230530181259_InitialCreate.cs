@@ -17,7 +17,7 @@ namespace projeto_gamer_mvc.Migrations
                     IdEquipe = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Imagem = table.Column<int>(type: "int", nullable: false)
+                    Imagem = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

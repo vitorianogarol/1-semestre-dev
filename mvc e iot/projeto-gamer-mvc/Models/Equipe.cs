@@ -9,7 +9,7 @@ namespace projeto_gamer_mvc.Models
         
         public string Nome { get; set; }
 
-        public int Imagem { get; set; }
+        public string Imagem { get; set; }
         
         public ICollection<Jogador> Jogador { get; set; }
     }

@@ -11,7 +11,7 @@ using projeto_gamer_mvc.Infra;
 namespace projeto_gamer_mvc.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230529201219_InitialCreate")]
+    [Migration("20230530181259_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -32,8 +32,9 @@ namespace projeto_gamer_mvc.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdEquipe"));
 
-                    b.Property<int>("Imagem")
-                        .HasColumnType("int");
+                    b.Property<string>("Imagem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
                         .IsRequired()

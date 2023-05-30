@@ -29,8 +29,9 @@ namespace projeto_gamer_mvc.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdEquipe"));
 
-                    b.Property<int>("Imagem")
-                        .HasColumnType("int");
+                    b.Property<string>("Imagem")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
