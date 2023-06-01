@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\O (2).png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\O (2).png"
+    },
+    {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\qrcode.png",
+      "PackagePath": "staticwebassets\\img\\Equipes\\qrcode.png"
+    },
+    {
       "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
