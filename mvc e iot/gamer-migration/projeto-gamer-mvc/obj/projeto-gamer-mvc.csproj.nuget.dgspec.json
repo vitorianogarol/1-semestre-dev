@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj": {}
+    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj": {
+    "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
+        "projectUniqueName": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
         "projectName": "projeto-gamer-mvc",
-        "projectPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
+        "projectPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\projeto-gamer-mvc.csproj",
         "packagesPath": "C:\\Users\\44072278858\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\projeto-gamer-mvc\\obj\\",
+        "outputPath": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\44072278858\\AppData\\Roaming\\NuGet\\NuGet.Config",
