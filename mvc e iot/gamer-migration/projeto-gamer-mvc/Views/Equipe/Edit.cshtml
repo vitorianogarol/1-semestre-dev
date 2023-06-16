@@ -3,15 +3,56 @@
     ViewData["Title"] = "Edit";
 }
 
-<h2>Edição de Equipes</h2>
+<link rel="stylesheet" href="~/css/equipes.css">
 
-@if (ViewBag.UserName == null)
-{
-    <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
-}
-else
-{
-    <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+<main>
+
+    <section class="container-grid cadastro-equipes">
+        @if (ViewBag.UserName == null)
+        {
+            <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+        }
+        else
+        {
+
+            <form class="frm-cad-equipe" method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
+
+
+                <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
+
+                <div class="cadequipe-titulo">
+                    <h1>Edição de Equipes</h1>
+                    <hr>
+                </div>
+
+                @* <input class="campo-entrada" type="number" id="idEquipe" placeholder="Digite o Id da sua equipe:"> *@
+                <input class="campo-entrada" type="text" placeholder="Digite o nome da sua equipe:" name="Nome"
+                    value="@ViewBag.Equipe.Nome" required>
+
+
+
+                <label class="foto" for="foto-file">
+                    <input type="file" id="foto-file" name="Imagem" value="@ViewBag.Equipe.Imagem">
+                </label>
+
+                <button type="submit">Atualizar</button>
+
+
+
+                <!-- <select class="equipeid" id="equipeid">
+                                                <option value="">Selecione uma Equipe</option>
+                                                <option value="x">Equipe X</option>
+                                                <option value="y">Equipe Y</option>
+                                            </select> -->
+            </form>
+
+
+
+
+
+
+
+            @* <form method="post" action="@Url.Action("Atualizar")" enctype="multipart/form-data">
 
 
         <input type="hidden" name="IdEquipe" value="@ViewBag.Equipe.IdEquipe">
@@ -20,12 +61,16 @@ else
         <input type="text" name="Nome" value="@ViewBag.Equipe.Nome">
 
         <label for="Imagem">
-            <strong type="button">Escolher Imagem</strong>
+        <strong type="button">Escolher Imagem</strong>
         </label>
         <label for="">@ViewBag.Equipe.Imagem</label>
         <input type="file" name="Imagem" id="Imagem" value="@ViewBag.Equipe.Imagem" style="display: none">
 
         <button type="submit">Atualizar</button>
-    </form>
-}
+        </form> *@
+        }
+
+    </section>
+
+</main>
 

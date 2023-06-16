@@ -185,6 +185,14 @@
       "PackagePath": "staticwebassets\\assets\\joystick-prof-icon.svg"
     },
     {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\assets\\lapis.svg",
+      "PackagePath": "staticwebassets\\assets\\lapis.svg"
+    },
+    {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\assets\\lapislaranja.svg",
+      "PackagePath": "staticwebassets\\assets\\lapislaranja.svg"
+    },
+    {
       "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\assets\\linkedin-yellow.svg",
       "PackagePath": "staticwebassets\\assets\\linkedin-yellow.svg"
     },
@@ -251,6 +259,10 @@
     {
       "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\css\\jogadores.css",
+      "PackagePath": "staticwebassets\\css\\jogadores.css"
     },
     {
       "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\css\\login.css",
@@ -373,12 +385,24 @@
       "PackagePath": "staticwebassets\\img\\Equipes\\banner-notebook-tec-manha.png"
     },
     {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\lapis.svg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\lapis.svg"
+    },
+    {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\loud.jpg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\loud.jpg"
+    },
+    {
       "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\nuvens.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\nuvens.png"
     },
     {
       "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\padrao.png",
       "PackagePath": "staticwebassets\\img\\Equipes\\padrao.png"
+    },
+    {
+      "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\pena.svg",
+      "PackagePath": "staticwebassets\\img\\Equipes\\pena.svg"
     },
     {
       "Id": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\img\\Equipes\\qrcode.png",

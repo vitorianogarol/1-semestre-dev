@@ -2,9 +2,82 @@
 @{
     ViewData["Title"] = "Jogador";
 }
-<h1>Tela de Jogadores</h1>
 
-@if (ViewBag.UserName == null)
+<link rel="stylesheet" href="~/css/jogadores.css">
+
+
+<!-- MAIN -->
+<main>
+
+    <section class="container-grid cadastro-equipes">
+
+        @if (ViewBag.UserName == null)
+        {
+            <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
+        }
+        else
+        {
+            <form class="frm-cad-equipe" method="post" action="@Url.Action("Cadastrar")">
+                <div class="cadequipe-titulo">
+                    <h1>Cadastro de Jogadores</h1>
+                    <hr>
+                </div>
+
+                
+                <select class="campo-entrada" id="equipe-select" name="Equipe">
+                       <option value="0"> Selecione sua Equipe:</option>
+                        @foreach (Equipe item in ViewBag.Equipe)
+                        {
+                            <option value="@item.IdEquipe">@item.Nome</option>
+                        }
+                </select>
+                
+                <input class="campo-entrada" type="text" id="nome-jogador" placeholder="Digite o nome do Jogador:" name="Nome" required>
+                <input class="campo-entrada" type="email" id="email-jogador" placeholder="Digite o Email do Jogador:" name="Email" required>
+                <input class="campo-entrada" type="password" id="senha" placeholder="Digite a Senha:" name="Senha" required>
+                <button>Cadastrar</button>
+                
+                
+                
+                
+            </form>
+
+               <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                     @foreach (Jogador j in ViewBag.Jogador)
+                        {
+                            <tr>
+                                    <td>@j.IdJogadorme</td>
+                                    <td>@j.Nome</td>
+                                    <td>@j.Email</td>
+                                    <td> <img src="/img/Equipes/@j.Equipe.Imagem" alt="Imagem da equipe @j.Equipe.Nome" width="50px"></td>
+                                    <td>
+                                        <a asp-area="" asp-controller="Jogador" asp-action="Excluir" asp-route-id="@j.IdJogadorme">
+                                            <img class="yellow-trash" src="~/assets/trash.png" alt="">
+                                        </a>
+                                        <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@j.IdJogadorme">
+                                            <img src="~/assets/lapislaranja.svg" alt="">
+                                        </a>
+                                    </td>
+                                </tr>
+                        }
+                    
+                </tbody>
+            </table>
+             
+   }     
+    </section>
+</main>
+
+@* @if (ViewBag.UserName == null)
 {
     <a class="navbar-brand" asp-area="" asp-controller="Login" asp-action="Index">Login</a>
 }
@@ -68,4 +141,4 @@ else
 
         </tbody>
     </table>
-}
+} *@
