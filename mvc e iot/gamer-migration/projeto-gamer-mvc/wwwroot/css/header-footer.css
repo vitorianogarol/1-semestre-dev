@@ -101,6 +101,12 @@ header .nav-bkg {
     transition: background-color .4s;
 }
 
+.header #nome {
+    width: auto;
+}
+
+
+
 .header nav a:hover {
     background-color: #F9AA01;
     border-bottom: 2px solid #1B1426;

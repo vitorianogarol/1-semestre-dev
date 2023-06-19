@@ -8,9 +8,7 @@
 
     <link rel="stylesheet" href="~/css/header-footer.css">
     <link rel="stylesheet" href="~/css/style.css">
-
 </head>
-
 <body>
     <!-- HEADER -->
     <header class="header">
@@ -51,16 +49,16 @@
                 <div class="nav-bkg">
                     <nav>
                         <a asp-controller="Home" asp-action="Index">Início</a>
-                        @if (ViewBag.UserName != null)
-                        {
+                            @if (ViewBag.UserName != null)
+                            {
                             <a asp-controller="Equipe" asp-action="Index">Equipes</a>
                             <a asp-controller="Jogador" asp-action="Index">Jogadores</a>
                             <a asp-controller="Login" asp-action="Logout">Logout</a>
-                            <span id="nome"> Ola, @ViewBag.UserName! </span>
-                        }
+                            <a id="nome">Olá, @ViewBag.UserName!</a>
+                            }
 
 
-                   <a href="~/#noticias">Notícias</a>
+                        <a href="~/#noticias">Notícias</a>
 
                         <a class="phone-box">
                             <img src="~/assets/phone-icon.png" alt="phone icon" title="Ícone Telefone">
@@ -112,7 +110,7 @@
 
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+                @RenderBody()
         </main>
     </div>
 
@@ -199,7 +197,7 @@
 
 
 
-    @await RenderSectionAsync("Scripts", required: false)
+        @await RenderSectionAsync("Scripts", required: false)
 </body>
 
 </html>

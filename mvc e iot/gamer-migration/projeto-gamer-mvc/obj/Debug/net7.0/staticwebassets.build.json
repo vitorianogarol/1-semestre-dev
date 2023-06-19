@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sskUNfTWALJRzEWYXXJnErKJAlvo01f1qhZrsdo5VWo=",
+  "Hash": "l+FOFUYsoWfiMdC6Ie85W6gtFgMqxi1Hz2zvQKG3GRg=",
   "Source": "projeto-gamer-mvc",
   "BasePath": "_content/projeto-gamer-mvc",
   "Mode": "Default",
@@ -1443,6 +1443,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Game-FIFA.png"
+    },
+    {
+      "Identity": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\images\\imagem-desktop-cadastro.png",
+      "SourceId": "projeto-gamer-mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\",
+      "BasePath": "_content/projeto-gamer-mvc",
+      "RelativePath": "images/imagem-desktop-cadastro.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\imagem-desktop-cadastro.png"
     },
     {
       "Identity": "C:\\Users\\44072278858\\Desktop\\1-semestre-dev\\mvc e iot\\gamer-migration\\projeto-gamer-mvc\\wwwroot\\images\\kiljoy.png",
