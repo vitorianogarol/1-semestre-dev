@@ -51,10 +51,11 @@
                         <a asp-controller="Home" asp-action="Index">Início</a>
                             @if (ViewBag.UserName != null)
                             {
+                            <a id="nome">@ViewBag.UserName!</a>
                             <a asp-controller="Equipe" asp-action="Index">Equipes</a>
                             <a asp-controller="Jogador" asp-action="Index">Jogadores</a>
                             <a asp-controller="Login" asp-action="Logout">Logout</a>
-                            <a id="nome">Olá, @ViewBag.UserName!</a>
+                            
                             }
 
 
